@@ -5,7 +5,9 @@ from django.contrib.auth.models import (AbstractUser)
 
 class AppUser(AbstractUser):
     #User account
-    email = models.EmailField(max_length=255)
+    email = models.EmailField(max_length=255, unique=True, verbose_name= 'email addresss')
+    USERNAME_FIELD = 'email'
+    REQUIRED_FIELDS = []
 
 class Film(models.Model):
     watchmode_id = models.IntegerField()
@@ -36,5 +38,14 @@ class FavoriteFilms(models.Model):
 class FavoritePersons(models.Model):
     user_id = models.ForeignKey(AppUser, on_delete=models.CASCADE)
     person_id = models.ForeignKey(Person, on_delete=models.CASCADE, related_name="user_favorite_person", null=True)
+
+class PopularMovies(models.Model):
+    movie_id = models.IntegerField()
+    title =  models.CharField(max_length=255)
+    year = models.IntegerField()
+    imdb_id = models.CharField(max_length=25, null=True)
+    tmdb_id = models.IntegerField(null=True)
+    tmdb_type = models.CharField(max_length=25, null=True)
+    type = models.CharField(max_length=25, null=True)
 
 
