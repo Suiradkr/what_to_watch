@@ -21,9 +21,11 @@ const LoginPage = (props) => {
 
   useEffect(() => {
     if (props.isLoggedIn) {
+      
+      console.log(props.isLoggedIn)
       navigate("userhomepage/");
     }
-  }, [props.isLoggedIn]);
+  });
   return (
     <div class="login-form">
       <h1>What2Watch</h1>

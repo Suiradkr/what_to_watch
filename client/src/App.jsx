@@ -2,18 +2,17 @@ import "./App.css";
 import React from "react";
 import axios from "axios";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
-import { redirect } from "react-router-dom";
 import SignUpPage from "./components/SignUpPage";
 import LoginPage from "./components/LoginPage";
 import { useState, useEffect} from "react";
-
+import HomePage from "./components/HomePage";
+//import "./scss/styles.scss"
 //const navigate = useNavigate()
 export default function App() {
 
 
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  
+  const [movies, setMovies] = useState();
 
   function getCookie(name) {
   
@@ -49,25 +48,35 @@ export default function App() {
 
   async function login_user(email, password) {
     await axios.post("api/login_user/", { email: email, password: password })
+      
+    setIsLoggedIn(true)
     
-    setIsLoggedIn(!isLoggedIn)
-    console.log(isLoggedIn)
   }
 
+   async function logout_user(){
+    await axios
+      .get("api/logout_user/")
+      .then((response) => {
+        setIsLoggedIn(false)
+        setMovies([])
+        console.log(response)
+
+    })
+  }
+
+  async function getData(){
+    await axios
+      .get("/api/userhomepage/")
+      .then((response)=> {
+        
+        setMovies(response.data['data'])
+      })}
+
+ useEffect(() =>{
+getData()
+
+ },[isLoggedIn])
   
-
-
-  // async function get_user_homepage(){
-    
-  //   await axios
-  //     .get("api/userhomepage/")
-  //     .then((response) => {
-
-  //   })
-  // }
-  // if (isLoggedIn){
-  //       return <Navigate to='/userhomepage'/>
-  //      }
   return (
     <div className="App">
       <Router>
@@ -78,10 +87,10 @@ export default function App() {
             element={<LoginPage login_user={login_user} isLoggedIn={isLoggedIn}/>}
           />
           <Route
-            path="/signup"
-            element={<SignUpPage create_user={signup_user} />}
+            path="signup/"
+            element={<SignUpPage create_user={signup_user} isLoggedIn={isLoggedIn}/>}
           />
-          <Route path="/userhomepage" element={<h3>Logged in!</h3>} />
+          <Route path="userhomepage/" element={<HomePage logout_user={logout_user} getData={getData} isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} movies={movies}/>} />
         </Routes>
       </Router>
     </div>

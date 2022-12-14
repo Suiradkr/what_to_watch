@@ -7,9 +7,8 @@ urlpatterns = [
     path('api/login_user/', views.login_user_view), 
     path('api/signup_user/', views.signup_user_view),
     path('signup/', views.signup_user_view),
-    
     path('api/userhomepage/', views.logged_in),
-    path('userhomepage/', views.homepage),
-
+    path('userhomepage/', views.user_homepage),
+    path('userhomepage/api/logout_user/', views.logout_user)
      #re_path(r'.*', views.index)
 ]
