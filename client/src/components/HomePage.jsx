@@ -2,33 +2,35 @@ import {useState, useEffect} from 'react'
 import { useNavigate } from 'react-router-dom'
 import '../App.css'
 import MovieCard from './MovieCard'
+import NavBar from './NavBar'
 
 function HomePage(props){
     const navigate = useNavigate()
-    //const [mov, setMovprops.movies)
-    let moviedata = []
-    console.log(props.movies)
-   
+    
+   console.log(props.isLoggedIn)
     useEffect(() => { 
-        //props.getData()
+        props.getData()
         if(!props.isLoggedIn){
             navigate('/')
+        }else{
+        navigate('/userhomepage/')
         }
        
-        //moviedata = props.movies
     },[props.isLoggedIn])
 
     return (
         <div >
+            
             <h1>You've made it to your homepage!!!</h1>
+            <div class='row'>
             {props.movies && props.movies.map((movie) =>{
 
                 return (
                     <MovieCard movie={movie}/>
                 )
             })}
-            
-            <button onClick={() => props.logout_user()}>Logout</button>
+            </div>
+            <button class="btn btn-primary" onClick={() => props.logout_user()}>Logout</button>
 
         </div>
     )

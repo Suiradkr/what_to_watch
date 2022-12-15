@@ -22,30 +22,19 @@ const LoginPage = (props) => {
   useEffect(() => {
     if (props.isLoggedIn) {
       
-      console.log(props.isLoggedIn)
+      
       navigate("userhomepage/");
     }
   });
   return (
-    <div class="login-form">
+    <div class='form-container'>
+    
       <h1>What2Watch</h1>
       <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          placeholder="example@whattowatch.com"
-          onChange={handleChange}
-          name="email"
-          required
-        ></input>
-        <input
-          type="password"
-          placeholder="Password"
-          onChange={handleChange}
-          name="pw"
-          required
-        ></input>
+      <input type="email" name='email' class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" onChange={handleChange} required></input>
+      <input type="password" class="form-control" placeholder="Password" onChange={handleChange} name='pw' required></input>
         <button
-          class="login-button"
+          class="btn btn-primary"
           type="submit"
           onClick={() => props.login_user(state.email, state.pw)}
         >
@@ -55,6 +44,7 @@ const LoginPage = (props) => {
         <a href="signup/">Sign Up</a>
       </form>
     </div>
+    
   );
 };
 export default LoginPage;

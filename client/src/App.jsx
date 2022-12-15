@@ -1,4 +1,5 @@
 import "./App.css";
+
 import React from "react";
 import axios from "axios";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -6,8 +7,8 @@ import SignUpPage from "./components/SignUpPage";
 import LoginPage from "./components/LoginPage";
 import { useState, useEffect} from "react";
 import HomePage from "./components/HomePage";
-//import "./scss/styles.scss"
-//const navigate = useNavigate()
+import NavBar from "./components/NavBar";
+
 export default function App() {
 
 
@@ -43,13 +44,19 @@ export default function App() {
       .then((response) => {
         console.log(response.data);
       })
-      .then("/");
+      
   }
 
   async function login_user(email, password) {
     await axios.post("api/login_user/", { email: email, password: password })
-      
-    setIsLoggedIn(true)
+    .then((response) => {
+      console.log(response.data)
+      if (response.data['success']){
+        setIsLoggedIn(true)
+      }else{
+        setIsLoggedIn(false)}
+        
+    })
     
   }
 
@@ -66,14 +73,19 @@ export default function App() {
 
   async function getData(){
     await axios
-      .get("/api/userhomepage/")
+      .get("/api/moviedata/")
       .then((response)=> {
-        
-        setMovies(response.data['data'])
+        if (response.data['success']){
+          setIsLoggedIn(true)
+          setMovies(response.data['data'])
+        }else{
+          setIsLoggedIn(false)
+          console.log(response.data['user'])
+        }
       })}
 
  useEffect(() =>{
-getData()
+
 
  },[isLoggedIn])
   
@@ -90,7 +102,7 @@ getData()
             path="signup/"
             element={<SignUpPage create_user={signup_user} isLoggedIn={isLoggedIn}/>}
           />
-          <Route path="userhomepage/" element={<HomePage logout_user={logout_user} getData={getData} isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} movies={movies}/>} />
+          <Route path="userhomepage/" element={<div><NavBar/><HomePage logout_user={logout_user} getData={getData} isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} movies={movies}/></div>} />
         </Routes>
       </Router>
     </div>
