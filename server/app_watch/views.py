@@ -44,7 +44,7 @@ def login_user_view(request):
                 try:
                     login(request._request, user)
                     print('user logged in!')
-                    return JsonResponse({'data': data})
+                    return JsonResponse({'success': True})
                 except Exception as e:
                     return JsonResponse({'success': False, 'reason': 'login failed'})
             else:
@@ -74,22 +74,23 @@ def signup_user_view(request):
 @api_view(["GET"])
 def user_homepage(request):
     if request.method == 'GET':
-        if request.user:
+        if request.user.is_authenticated:
             print('made it!')
             print(request.user)
             return HttpResponse(app)
+        return HttpResponseRedirect(redirect_to='')
     
 
 @api_view(['GET'])
-def logged_in(request):
+def movie_data(request):
     if request.method == 'GET':
-        movie_dets = []
-        with open('./fixtures/omdata.json') as f:
-            movies= json.load(f)
-            #print(movies)
-            f.close()
-       
-        return JsonResponse({'success': True, 'data':movies})
+        if request.user.is_authenticated:
+            with open('./fixtures/omdata.json') as f:
+                movies= json.load(f)
+                f.close()
+            return JsonResponse({'success': True, 'data':movies})
+        else:
+            return JsonResponse({'success':False, 'user':'not logged in'})
 
 @api_view(['GET'])
 def logout_user(request):
@@ -100,7 +101,7 @@ def logout_user(request):
 
 
 def whoami(request):
-    if request.user.is_authenicated:
+    if request.user.is_authenticated:
         return JsonResponse({
             'email': request.user.email,
         })
