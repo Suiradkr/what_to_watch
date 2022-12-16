@@ -102,7 +102,7 @@ export default function App() {
             path="signup/"
             element={<SignUpPage create_user={signup_user} isLoggedIn={isLoggedIn}/>}
           />
-          <Route path="userhomepage/" element={<div><NavBar/><HomePage logout_user={logout_user} getData={getData} isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} movies={movies}/></div>} />
+          <Route path="userhomepage/" element={<HomePage logout_user={logout_user} getData={getData} isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} movies={movies}/>} />
         </Routes>
       </Router>
     </div>

@@ -19,20 +19,23 @@ function HomePage(props){
     },[props.isLoggedIn])
 
     return (
-        <div >
-            
+        <>
+            <NavBar />
             <h1>You've made it to your homepage!!!</h1>
-            <div class='row'>
+            
+            <header>
             {props.movies && props.movies.map((movie) =>{
 
                 return (
-                    <MovieCard movie={movie}/>
+                    <MovieCard movie={movie}/> 
+                    
                 )
             })}
-            </div>
+            </header>
+           
             <button class="btn btn-primary" onClick={() => props.logout_user()}>Logout</button>
 
-        </div>
+        </>
     )
 
 }
