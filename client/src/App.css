@@ -1,14 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@charset "UTF-8";/*!
+ * Bootswatch v5.2.3 (https://bootswatch.com)
+ * Theme: morph
+ * Copyright 2012-2022 Thomas Park
+ * Licensed under MIT
+ * Based on Bootstrap
+*//*!
+ * Bootstrap  v5.2.3 (https://getbootstrap.com/)
+ * Copyright 2011-2022 The Bootstrap Authors
+ * Copyright 2011-2022 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */@import url(https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap);
 
 #root {
   /* max-width: 1280px; */
   margin: 0 auto;
   padding: 0;
   text-align: center;
-
+  
 }
 
-h1,
 :root {
   --bs-blue: #378dfc;
   --bs-indigo: #6610f2;
@@ -105,6 +115,7 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
+  
 }
 hr {
   margin: 1rem 0;
@@ -2742,7 +2753,7 @@ textarea.form-control.is-invalid {
   --bs-btn-bg: transparent;
   --bs-btn-border-width: 0;
   --bs-btn-border-color: transparent;
-  --bs-btn-border-radius: 50rem;
+  --bs-btn-border-radius: 5rem;
   --bs-btn-hover-border-color: transparent;
   --bs-btn-box-shadow: 5px 5px 10px rgba(55, 94, 148, 0.2),
     -5px -5px 10px rgba(255, 255, 255, 0.4);
@@ -2764,7 +2775,7 @@ textarea.form-control.is-invalid {
   -moz-user-select: none;
   user-select: none;
   border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
-  border-radius: var(--bs-btn-border-radius);
+  border-radius: 5rem;
   background-color: var(--bs-btn-bg);
   box-shadow: var(--bs-btn-box-shadow);
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
@@ -3065,20 +3076,23 @@ fieldset:disabled .btn {
   --bs-gradient: none;
 }
 .btn-outline-dark {
-  --bs-btn-color: #212529;
-  --bs-btn-border-color: #212529;
+  --bs-btn-color: #343738;
+  --bs-btn-border-color: #666b6f;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #212529;
-  --bs-btn-hover-border-color: #212529;
+  --bs-btn-hover-border-color: #666b6f;
   --bs-btn-focus-shadow-rgb: 33, 37, 41;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #212529;
-  --bs-btn-active-border-color: #212529;
+  --bs-btn-active-border-color: #666b6f;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #212529;
   --bs-btn-disabled-bg: transparent;
   --bs-btn-disabled-border-color: #212529;
   --bs-gradient: none;
+  border-color: rgb(98, 98, 98);
+  border-width: thin;
+  box-shadow: none;
 }
 .btn-link {
   --bs-btn-font-weight: 400;
@@ -3106,14 +3120,14 @@ fieldset:disabled .btn {
   --bs-btn-padding-y: 1.5rem;
   --bs-btn-padding-x: 2.25rem;
   --bs-btn-font-size: 1.25rem;
-  --bs-btn-border-radius: 50rem;
+  --bs-btn-border-radius: 5rem;
 }
 .btn-group-sm > .btn,
 .btn-sm {
   --bs-btn-padding-y: 0.25rem;
   --bs-btn-padding-x: 0.5rem;
   --bs-btn-font-size: 0.875rem;
-  --bs-btn-border-radius: 50rem;
+  --bs-btn-border-radius: 5rem;
 }
 .fade {
   transition: opacity 0.15s linear;
@@ -3492,7 +3506,7 @@ fieldset:disabled .btn {
   width: auto;
 }
 .btn-group {
-  border-radius: 50rem;
+  border-radius: 5rem;
 }
 .btn-group > .btn-group:not(:first-child),
 .btn-group > :not(.btn-check:first-child) + .btn {
@@ -3706,6 +3720,8 @@ fieldset:disabled .btn {
   align-items: center;
   justify-content: space-between;
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+  box-shadow: 0px 2px 9px 2px rgba(29, 55, 89, 0.267);
+  margin-bottom: 50px;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -3852,7 +3868,7 @@ fieldset:disabled .btn {
     overflow-y: visible;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 915px) {
   .navbar-expand-md {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -3900,7 +3916,7 @@ fieldset:disabled .btn {
     overflow-y: visible;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 915px) {
   .navbar-expand-lg {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -5169,7 +5185,7 @@ fieldset:disabled .btn {
   --bs-modal-padding: 1rem;
   --bs-modal-margin: 0.5rem;
   --bs-modal-color: ;
-  --bs-modal-bg: rgba(240, 245, 250, 0.8);
+  --bs-modal-bg: rgba(240, 245, 250);
   --bs-modal-border-color: var(--bs-border-color-translucent);
   --bs-modal-border-width: 0;
   --bs-modal-border-radius: 0.5rem;
@@ -5212,6 +5228,7 @@ fieldset:disabled .btn {
   }
 }
 .modal.show .modal-dialog {
+ 
   transform: none;
 }
 .modal.modal-static .modal-dialog {
@@ -5249,7 +5266,7 @@ fieldset:disabled .btn {
 .modal-backdrop {
   --bs-backdrop-zindex: 1050;
   --bs-backdrop-bg: #000;
-  --bs-backdrop-opacity: 0.5;
+  --bs-backdrop-opacity: 0.7;
   position: fixed;
   top: 0;
   left: 0;
@@ -10503,9 +10520,9 @@ fieldset:disabled .btn {
 .btn {
   position: relative;
   color: #7b8ab8;
-  border-radius: 50rem;
+  border-radius: 10px;
   background-color: #d9e3f1;
-  border: none;
+  
   box-shadow: 5px 5px 10px rgba(55, 94, 148, 0.2),
     -5px -5px 10px rgba(255, 255, 255, 0.4);
   transition: background-color 0.15s ease-in-out, border 0.15s ease-in-out,
@@ -10519,7 +10536,7 @@ fieldset:disabled .btn {
 .btn:focus,
 .btn:hover {
   background-color: #d9e3f1;
-  border: none;
+  
   box-shadow: 5px 5px 10px rgba(55, 94, 148, 0.2),
     -5px -5px 10px rgba(255, 255, 255, 0.4);
   transition: background-color 0.15s ease-in-out, border 0.15s ease-in-out,
@@ -10742,32 +10759,33 @@ fieldset:disabled .btn {
 .btn-outline-light:active,
 .btn-outline-light:active:focus {
   background-color: #f0f5fa;
-  border: none;
+  
   box-shadow: inset 2px 3px 6px rgba(0, 0, 0, 0.1),
     inset -3px -2px 6px rgba(255, 255, 255, 0.1);
   color: #7b8ab8;
 }
 .btn-outline-dark {
-  background-color: #212529;
-  border: none;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2),
-    -5px -5px 10px rgba(255, 255, 255, 0.1);
+  background-color: #343738;
+  box-shadow: none;
+  
+  border-width: 2px;
   color: #fff;
 }
 .btn-outline-dark:focus,
 .btn-outline-dark:hover {
   background-color: #212529;
-  border: none;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2),
-    -5px -5px 10px rgba(255, 255, 255, 0.1);
+
+  box-shadow: none;
+  
+  border-width: 2px;
   color: #fff;
 }
 .btn-outline-dark:active,
 .btn-outline-dark:active:focus {
   background-color: #212529;
-  border: none;
-  box-shadow: inset 2px 3px 6px rgba(0, 0, 0, 0.1),
-    inset -3px -2px 6px rgba(255, 255, 255, 0.1);
+  box-shadow: none;
+  
+  border-width: 2px;
   color: #fff;
 }
 .btn-group,
@@ -11236,7 +11254,6 @@ fieldset:disabled .btn {
 .list-group-item {
   background-color: transparent;
 }
-
 .form-container{
   position: absolute;
   left: 50%;
@@ -11249,4 +11266,9 @@ fieldset:disabled .btn {
     margin: auto;
   padding: 20px;
   border-radius: 10px;
+}
+
+#modformat{
+  padding: 1rem;
+  margin: none;
 }

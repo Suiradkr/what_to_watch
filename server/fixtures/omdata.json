@@ -1,630 +1,720 @@
 [
-    {
-        "Title": "Black Adam",
-        "Year": "2022",
-        "Rated": "PG-13",
-        "Released": "21 Oct 2022",
-        "Runtime": "125 min",
-        "Genre": "Action, Adventure, Fantasy",
-        "Director": "Jaume Collet-Serra",
-        "Writer": "Adam Sztykiel, Rory Haines, Sohrab Noshirvani",
-        "Actors": "Dwayne Johnson, Aldis Hodge, Pierce Brosnan",
-        "Plot": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods--and imprisoned just as quickly--Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
-        "Language": "English",
-        "Country": "United States",
-        "Awards": "1 nomination",
-        "trailer": "https://www.youtube.com/watch?v=X0tOpBuYasI",
-        "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/709072_pthumbnail_320.jpg",
-        "backdrop": "https://cdn.watchmode.com/backdrops/01504520_bd_w780.jpg",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BYzZkOGUwMzMtMTgyNS00YjFlLTg5NzYtZTE3Y2E5YTA5NWIyXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_SX300.jpg",
-        "Ratings": [
-            {
-                "Source": "Internet Movie Database",
-                "Value": "6.9/10"
-            },
-            {
-                "Source": "Rotten Tomatoes",
-                "Value": "40%"
-            },
-            {
-                "Source": "Metacritic",
-                "Value": "41/100"
-            }
-        ],
-        "sources": [
-            {
-                "source_id": 24,
-                "name": "Amazon",
-                "type": "rent",
-                "region": "US",
-                "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.1a7638b2-3f5e-464a-a271-07c2e2ec1f8c?",
-                "format": "4K",
-                "price": 19.99
-            },
-            {
-                "source_id": 140,
-                "name": "Google Play",
-                "type": "rent",
-                "region": "US",
-                "web_url": "https://play.google.com/store/movies/details/Black_Adam?gl=US&hl=en&id=XYiVF56FIpI.P",
-                "format": "4K",
-                "price": 19.99
-            },
-            {
-                "source_id": 344,
-                "name": "YouTube",
-                "type": "rent",
-                "region": "US",
-                "web_url": "https://www.youtube.com/results?search_query=Black+Adam%2Bmovie",
-                "format": "4K",
-                "price": 19.99
-            },
-            {
-                "source_id": 349,
-                "name": "iTunes",
-                "type": "rent",
-                "region": "US",
-                "web_url": "https://tv.apple.com/us/movie/black-adam/umc.cmc.59e2494tiq7gyhupr30n1mor1?playableId=tvs.sbd.9001%3A1646543268",
-                "format": "4K",
-                "price": 19.99
-            }
-        ],
-        "Metascore": "41",
-        "imdbRating": "6.9",
-        "imdbVotes": "120,081",
-        "imdbID": "tt6443346",
-        "Type": "movie",
-        "DVD": "N/A",
-        "BoxOffice": "N/A",
-        "Production": "N/A",
-        "Website": "N/A",
-        "Response": "True"
-    },
-    {
-        "Title": "Troll",
-        "Year": "2022",
-        "Rated": "N/A",
-        "Released": "01 Dec 2022",
-        "Runtime": "101 min",
-        "Genre": "Action, Adventure, Fantasy",
-        "Director": "Roar Uthaug",
-        "Writer": "Espen Aukan, Roar Uthaug",
-        "Actors": "Ine Marie Wilmann, Kim Falck, Mads Sjogord Pettersen",
-        "Plot": "Deep in the Dovre mountain, something gigantic wakes up after a thousand years in captivity. The creature destroys everything in its path and quickly approaches Oslo.",
-        "Language": "Norwegian",
-        "Country": "Norway",
-        "Awards": "N/A",
-        "trailer": "https://www.youtube.com/watch?v=ahgfyU-oSTs",
-        "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/724115_pthumbnail_320.jpg",
-        "poster": "https://cdn.watchmode.com/posters/01675233_poster_w185.jpg",
-        "backdrop": "https://cdn.watchmode.com/backdrops/01675233_bd_w780.jpg",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BOWQzMDc5OTMtMjFiMy00M2I3LWIyZWMtODM4NTRhMGI2ZTRkXkEyXkFqcGdeQXVyNDAxNzcyNw@@._V1_SX300.jpg",
-        "Ratings": [
-            {
-                "Source": "Rotten Tomatoes",
-                "Value": "90%"
-            }
-        ],
-        "sources": [
-            {
-                "source_id": 203,
-                "name": "Netflix",
-                "type": "sub",
-                "region": "US",
-                "web_url": "https://www.netflix.com/watch/81245455",
-                "format": "HD"
-            }
-        ],
-        "Metascore": "N/A",
-        "imdbRating": "N/A",
-        "imdbVotes": "N/A",
-        "imdbID": "tt11116912",
-        "Type": "movie",
-        "DVD": "01 Dec 2022",
-        "BoxOffice": "N/A",
-        "Production": "N/A",
-        "Website": "N/A",
-        "Response": "True"
-    },
-    {
-        "Title": "The Woman King",
-        "Year": "2022",
-        "Rated": "PG-13",
-        "Released": "16 Sep 2022",
-        "Runtime": "135 min",
-        "Genre": "Action, Drama, History",
-        "Director": "Gina Prince-Bythewood",
-        "Writer": "Dana Stevens, Maria Bello",
-        "Actors": "Viola Davis, Thuso Mbedu, Lashana Lynch",
-        "Plot": "A historical epic inspired by true events that took place in The Kingdom of Dahomey, one of the most powerful states of Africa in the 18th and 19th centuries.",
-        "Language": "English",
-        "Country": "United States",
-        "Awards": "2 nominations",
-        "trailer": "https://www.youtube.com/watch?v=yaYogi3zzRY",
-        "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/679445_pthumbnail_320.jpg",
-        "poster": "https://cdn.watchmode.com/posters/01615842_poster_w185.jpg",
-        "backdrop": "https://cdn.watchmode.com/backdrops/01615842_bd_w780.jpg",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BY2I4MDIwYWUtOWMxNC00ZTIzLWE3OGYtOWUyMmIwZGE2NjU4XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg",
-        "Ratings": [
-            {
-                "Source": "Internet Movie Database",
-                "Value": "6.7/10"
-            },
-            {
-                "Source": "Rotten Tomatoes",
-                "Value": "94%"
-            },
-            {
-                "Source": "Metacritic",
-                "Value": "77/100"
-            }
-        ],
-        "sources": [
-            {
-                "source_id": 24,
-                "name": "Amazon",
-                "type": "buy",
-                "region": "US",
-                "web_url": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.26844fbf-ff58-4d27-9cd3-3f8b48122245",
-                "format": "4K",
-                "price": 19.99
-            },
-            {
-                "source_id": 140,
-                "name": "Google Play",
-                "type": "buy",
-                "region": "US",
-                "web_url": "https://play.google.com/store/movies/details/The_Woman_King?gl=US&hl=en&id=dYKWSdXf6rw.P",
-                "format": "4K",
-                "price": 19.99
-            },
-            {
-                "source_id": 344,
-                "name": "YouTube",
-                "type": "buy",
-                "region": "US",
-                "web_url": "https://www.youtube.com/results?search_query=The+Woman+King%2Bmovie",
-                "format": "4K",
-                "price": 19.99
-            },
-            {
-                "source_id": 349,
-                "name": "iTunes",
-                "type": "buy",
-                "region": "US",
-                "web_url": "https://tv.apple.com/us/movie/the-woman-king/umc.cmc.5av1wo84gd2pj5vsx1m3fbok8?playableId=tvs.sbd.9001%3A1643239728",
-                "format": "4K",
-                "price": 19.99
-            }
-        ],
-        "Metascore": "77",
-        "imdbRating": "6.7",
-        "imdbVotes": "36,676",
-        "imdbID": "tt8093700",
-        "Type": "movie",
-        "DVD": "N/A",
-        "BoxOffice": "$65,259,367",
-        "Production": "N/A",
-        "Website": "N/A",
-        "Response": "True"
-    },
-    {
-        "Title": "R.I.P.D. 2: Rise of the Damned",
-        "Year": "2022",
-        "Rated": "PG-13",
-        "Released": "15 Nov 2022",
-        "Runtime": "102 min",
-        "Genre": "Action, Comedy",
-        "Director": "Paul Leyden",
-        "Writer": "Andrew Klein, Paul Leyden",
-        "Actors": "Jeffrey Donovan, Rachel Adedeji, Penelope Mitchell",
-        "Plot": "Set in the American West of 1876, 'R.I.P.D.2: Rise of the Damed' is a spiritual (pardon the pun) sequel to 2013's 'R.I.P.D.' Sheriff Roy Pulsipher isn't too thrilled about finding himself dead after a shoot out with a notorious ou...",
-        "Language": "English",
-        "Country": "United States",
-        "Awards": "N/A",
-        "trailer": "",
-        "trailer_thumbnail": "",
-        "poster": "https://cdn.watchmode.com/posters/01690871_poster_w185.jpg",
-        "backdrop": "https://cdn.watchmode.com/backdrops/01690871_bd_w780.jpg",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BZDM5YTI5MWUtMWI0YS00NjMyLThjODMtMzFjMTg1ZTgwZDEyXkEyXkFqcGdeQXVyODQ4NjA3Mw@@._V1_SX300.jpg",
-        "Ratings": [
-            {
-                "Source": "Internet Movie Database",
-                "Value": "4.5/10"
-            }
-        ],
-        "Metascore": "N/A",
-        "imdbRating": "4.5",
-        "imdbVotes": "1,006",
-        "imdbID": "tt21094994",
-        "Type": "movie",
-        "DVD": "15 Nov 2022",
-        "BoxOffice": "N/A",
-        "Production": "N/A",
-        "Website": "N/A",
-        "Response": "True"
-    },
-    {
-        "Title": "Margaux",
-        "Year": "2022",
-        "Rated": "R",
-        "Released": "09 Sep 2022",
-        "Runtime": "104 min",
-        "Genre": "Horror, Thriller",
-        "Director": "Steven C. Miller",
-        "Writer": "Chris Beyrooty, Chris Sivertson, Nick Waters",
-        "Actors": "Madison Pettis, Vanessa Morgan, Jedidiah Goodacre",
-        "Plot": "A group of college friends rent a smart house for a weekend of partying. Later, they start to realize that Margaux, the house's super advanced AI system, has sinister designs for them.",
-        "Language": "English",
-        "Country": "United States",
-        "Awards": "N/A",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BODE1NjRiYjUtZmQwYi00Yzg5LWE1YWUtZjRkZmMzN2FiMTBmXkEyXkFqcGdeQXVyNjE2MzI5ODM@._V1_SX300.jpg",
-        "Ratings": [
-            {
-                "Source": "Internet Movie Database",
-                "Value": "4.4/10"
-            },
-            {
-                "Source": "Rotten Tomatoes",
-                "Value": "71%"
-            }
-        ],
-        "sources": [
-            {
-                "source_id": 24,
-                "name": "Amazon",
-                "type": "rent",
-                "region": "US",
-                "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.01436aec-de65-4670-ae8d-d2fce49739d5?",
-                "format": "HD",
-                "price": 5.99
-            },
-            {
-                "source_id": 140,
-                "name": "Google Play",
-                "type": "rent",
-                "region": "US",
-                "web_url": "https://play.google.com/store/movies/details/R_I_P_D_2_Rise_of_the_Damned?gl=US&hl=en&id=FV01pB5bBu8.P",
-                "format": "HD",
-                "price": 5.99
-            },
-            {
-                "source_id": 344,
-                "name": "YouTube",
-                "type": "rent",
-                "region": "US",
-                "web_url": "https://www.youtube.com/results?search_query=R.I.P.D.+2%3A+Rise+of+the+Damned%2Bmovie",
-                "format": "HD",
-                "price": 5.99
-            },
-            {
-                "source_id": 349,
-                "name": "iTunes",
-                "type": "rent",
-                "region": "US",
-                "web_url": "https://tv.apple.com/us/movie/ripd-2-rise-of-the-damned/umc.cmc.7b5mwsgl42se4d3aidmc6ojho?playableId=tvs.sbd.9001%3A1653085436",
-                "format": "HD",
-                "price": 5.99
-            },
-            {
-                "source_id": 203,
-                "name": "Netflix",
-                "type": "sub",
-                "region": "US",
-                "web_url": "https://www.netflix.com/watch/81624693",
-                "format": "HD",
-                "price": "sub"
-            }
-        ],
-        "Metascore": "N/A",
-        "imdbRating": "4.4",
-        "imdbVotes": "899",
-        "imdbID": "tt14967618",
-        "Type": "movie",
-        "DVD": "09 Sep 2022",
-        "BoxOffice": "N/A",
-        "Production": "N/A",
-        "Website": "N/A",
-        "Response": "True"
-    },
-    {
-        "Title": "Lesson Plan",
-        "Year": "2022",
-        "Rated": "N/A",
-        "Released": "23 Nov 2022",
-        "Runtime": "101 min",
-        "Genre": "Action, Crime",
-        "Director": "Daniel Markowicz",
-        "Writer": "Daniel Bernardi",
-        "Actors": "Marcin Bosak, Pascal Fischer, Zuzanna Galewicz",
-        "Plot": "After a teacher dies, his best friend, a former cop, takes a job at the school where he worked to confront the gang he thinks was responsible.",
-        "Language": "Polish",
-        "Country": "N/A",
-        "Awards": "N/A",
-        "trailer": "",
-        "trailer_thumbnail": "",
-        "Poster": "https://cdn.watchmode.com/posters/01698025_poster_w185.jpg",
-        "poster": "https://cdn.watchmode.com/posters/01698025_poster_w185.jpg",
-        "backdrop": "https://cdn.watchmode.com/backdrops/01698025_bd_w780.jpg",
-        "Ratings": [],
-        "sources": [
-            {
-                "source_id": 203,
-                "name": "Netflix",
-                "type": "sub",
-                "region": "US",
-                "web_url": "https://www.netflix.com/watch/81498377",
-                "format": "HD",
-                "price": "sub"
-            }
-        ],
-        "Metascore": "N/A",
-        "imdbRating": "N/A",
-        "imdbVotes": "N/A",
-        "imdbID": "tt23343786",
-        "Type": "movie",
-        "DVD": "N/A",
-        "BoxOffice": "N/A",
-        "Production": "N/A",
-        "Website": "N/A",
-        "Response": "True"
-    },
-    {
-        "Title": "Black Panther: Wakanda Forever",
-        "Year": "2022",
-        "Rated": "PG-13",
-        "Released": "11 Nov 2022",
-        "Runtime": "161 min",
-        "Genre": "Action, Adventure, Drama",
-        "Director": "Ryan Coogler",
-        "Writer": "Ryan Coogler, Joe Robert Cole",
-        "Actors": "Letitia Wright, Lupita Nyong'o, Danai Gurira",
-        "Plot": "Queen Ramonda, Shuri, M Baku, Okoye and the Dora Milaje fight to protect their nation from intervening world powers in the wake of King T Challa's death. As the Wakandans strive to embrace their next chapter, the heroes must band together with the help of War Dog Nakia and Everett Ross and forge a new path for the kingdom of Wakanda.",
-        "Language": "English, Spanish",
-        "Country": "United States",
-        "Awards": "3 nominations",
-        "trailer": "https://www.youtube.com/watch?v=FtLjCEVf3NQ",
-        "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/723919_pthumbnail_320.jpg",
-        "poster": "https://cdn.watchmode.com/posters/01491945_poster_w185.jpg",
-        "backdrop": "https://cdn.watchmode.com/backdrops/01491945_bd_w780.jpg",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BNTM4NjIxNmEtYWE5NS00NDczLTkyNWQtYThhNmQyZGQzMjM0XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg",
-        "Ratings": [
-            {
-                "Source": "Internet Movie Database",
-                "Value": "7.3/10"
-            },
-            {
-                "Source": "Rotten Tomatoes",
-                "Value": "84%"
-            },
-            {
-                "Source": "Metacritic",
-                "Value": "67/100"
-            }
-        ],
-        "sources": [
-            {
-                "source_id": 203,
-                "name": "In theaters",
-                "type": "",
-                "region": "US",
-                "web_url": "",
-                "format": "",
-                "price": "N/A"
-            }
-        ],
-        "Metascore": "67",
-        "imdbRating": "7.3",
-        "imdbVotes": "103,643",
-        "imdbID": "tt9114286",
-        "Type": "movie",
-        "DVD": "N/A",
-        "BoxOffice": "N/A",
-        "Production": "N/A",
-        "Website": "N/A",
-        "Response": "True"
-    },
-    {
-        "Title": "Frank and Penelope",
-        "Year": "2022",
-        "Rated": "R",
-        "Released": "07 Aug 2022",
-        "Runtime": "112 min",
-        "Genre": "Thriller",
-        "Director": "Sean Patrick Flanery",
-        "Writer": "Sean Patrick Flanery, John Thaddeus",
-        "Actors": "Billy Budinich, Caylee Cowan, Johnathon Schaech",
-        "Plot": "A tale of love and violence when a man on his emotional last legs finds a savior seductively dancing in a run-down strip club. And a life most certainly headed off a cliff suddenly becomes redirected - as EVERYTHING is now worth dying for",
-        "Language": "English",
-        "Country": "United States",
-        "Awards": "N/A",
-        "trailer": "https://www.youtube.com/watch?v=0p0JHBNjjRo",
-        "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/716776_pthumbnail_320.jpg",
-        "poster": "https://cdn.watchmode.com/posters/01648654_poster_w185.jpg",
-        "backdrop": "https://cdn.watchmode.com/backdrops/01648654_bd_w780.jpg",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BZjM5NjBmODQtY2IwZS00MDY3LWFkY2UtMTQxZTQ5N2YyYjg4XkEyXkFqcGdeQXVyNzc3MDg1NTM@._V1_SX300.jpg",
-        "Ratings": [
-            {
-                "Source": "Internet Movie Database",
-                "Value": "5.2/10"
-            },
-            {
-                "Source": "Rotten Tomatoes",
-                "Value": "25%"
-            }
-        ],
-        "sources": [
-            {
-                "source_id": 140,
-                "name": "Google Play",
-                "type": "rent",
-                "region": "US",
-                "web_url": "https://play.google.com/store/movies/details/Frank_Penelope?gl=US&hl=en&id=6wj7i14h54c.P",
-                "format": "HD",
-                "price": 4.99
-            },
-            {
-                "source_id": 344,
-                "name": "YouTube",
-                "type": "rent",
-                "region": "US",
-                "web_url": "https://www.youtube.com/results?search_query=Frank+%26+Penelope%2Bmovie",
-                "format": "HD",
-                "price": 4.99
-            },
-            {
-                "source_id": 24,
-                "name": "Amazon",
-                "type": "rent",
-                "region": "US",
-                "web_url": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.96088a10-c2dc-4307-862f-3a8fbb1cc8d9",
-                "format": "HD",
-                "price": 4.99
-            },
-            {
-                "source_id": 349,
-                "name": "iTunes",
-                "type": "rent",
-                "region": "US",
-                "web_url": "https://tv.apple.com/us/movie/frank-and-penelope/umc.cmc.51u63s1wn1zx2br0tmimo3dep?playableId=tvs.sbd.9001%3A1633402962",
-                "format": "HD",
-                "price": 4.99
-            }
-        ],
-        "Metascore": "N/A",
-        "imdbRating": "5.2",
-        "imdbVotes": "517",
-        "imdbID": "tt4459134",
-        "Type": "movie",
-        "DVD": "N/A",
-        "BoxOffice": "N/A",
-        "Production": "N/A",
-        "Website": "N/A",
-        "Response": "True"
-    },
-    {
-        "Title": "Hex",
-        "Year": "2022",
-        "Rated": "R",
-        "Released": "01 Nov 2022",
-        "Runtime": "88 min",
-        "Genre": "Action, Adventure, Horror",
-        "Director": "Chris Johnston, Andy Malchiodi",
-        "Writer": "Hans Rodionoff",
-        "Actors": "Kayla Adams, Matthew Holcomb, Bryan Roberts",
-        "Plot": "Following a mysterious disappearance on a jump, a group of skydivers experience paranormal occurrences that leave them fighting for their lives.",
-        "Language": "English",
-        "Country": "United States",
-        "Awards": "N/A",
-        "trailer": "https://www.youtube.com/watch?v=FJsEtCV2dMM",
-        "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/722580_pthumbnail_320.jpg",
-        "poster": "https://cdn.watchmode.com/posters/01685861_poster_w185.jpg",
-        "backdrop": "https://cdn.watchmode.com/backdrops/01685861_bd_w780.jpg",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BNjY5NzQ3ODEtMDExMi00MTQ3LWJjN2EtMzQ5YzY0NGJhNjU1XkEyXkFqcGdeQXVyOTg4MDYyNw@@._V1_SX300.jpg",
-        "Ratings": [
-            {
-                "Source": "Internet Movie Database",
-                "Value": "3.2/10"
-            }
-        ],
-        "sources": [
-            {
-                "source_id": 24,
-                "name": "Amazon",
-                "type": "rent",
-                "region": "US",
-                "web_url": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.4aac5c72-3ef2-43d4-89fb-1b3daaaf616f",
-                "format": "4K",
-                "price": 5.99
-            },
-            {
-                "source_id": 349,
-                "name": "iTunes",
-                "type": "rent",
-                "region": "US",
-                "web_url": "https://tv.apple.com/us/movie/hex/umc.cmc.4ty997h7xpqdqk8d0vqif8v5d?playableId=tvs.sbd.9001%3A1638877863",
-                "format": "4K",
-                "price": 5.99
-            },
-            {
-                "source_id": 140,
-                "name": "Google Play",
-                "type": "rent",
-                "region": "US",
-                "web_url": "https://play.google.com/store/movies/details/Hex?gl=US&hl=en&id=QT3OXklx6F8.P",
-                "format": "4K",
-                "price": 5.99
-            },
-            {
-                "source_id": 344,
-                "name": "YouTube",
-                "type": "rent",
-                "region": "US",
-                "web_url": "https://www.youtube.com/results?search_query=Hex%2Bmovie",
-                "format": "4K",
-                "price": 5.99
-            }
-        ],
-        "Metascore": "N/A",
-        "imdbRating": "3.2",
-        "imdbVotes": "279",
-        "imdbID": "tt6969338",
-        "Type": "movie",
-        "DVD": "N/A",
-        "BoxOffice": "N/A",
-        "Production": "N/A",
-        "Website": "N/A",
-        "Response": "True"
-    },
-    {
-        "Title": "Corrective Measures",
-        "Year": "2022",
-        "Rated": "N/A",
-        "Released": "29 Apr 2022",
-        "Runtime": "106 min",
-        "Genre": "Action, Sci-Fi, Thriller",
-        "Director": "Sean Patrick O'Reilly",
-        "Writer": "Grant Chastain, Sean Patrick O'Reilly",
-        "Actors": "Bruce Willis, Michael Rooker, Tom Cavanagh",
-        "Plot": "Set in the world's most dangerous maximum-security penitentiary, home to the most treacherous criminals, tensions among the inmates and staff heighten, leading to anarchy that engulfs the prison and order is turned upside down.",
-        "Language": "English",
-        "Country": "United States",
-        "Awards": "N/A",
-        "trailer": "https://www.youtube.com/watch?v=HFzoGb4gsv8",
-        "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/720632_pthumbnail_320.jpg",
-        "poster": "https://cdn.watchmode.com/posters/01679906_poster_w185.jpg",
-        "backdrop": "https://cdn.watchmode.com/backdrops/01679906_bd_w780.jpg",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BMmY2MjQzY2YtZWIwNS00YjhhLWJjZWMtMzk3NzdhNTM2YmIyXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_SX300.jpg",
-        "Ratings": [
-            {
-                "Source": "Internet Movie Database",
-                "Value": "4.8/10"
-            },
-            {
-                "Source": "Rotten Tomatoes",
-                "Value": "60%"
-            }
-        ],
-        "sources": [
-            {
-                "source_id": 296,
-                "name": "Tubi TV",
-                "type": "free",
-                "region": "US",
-                "web_url": "https://tubitv.com/movies/665895?&",
-                "format": "HD",
-                "price": "free"
-            }
-        ],
-        "Metascore": "N/A",
-        "imdbRating": "4.8",
-        "imdbVotes": "1,764",
-        "imdbID": "tt15391770",
-        "Type": "movie",
-        "DVD": "29 Apr 2022",
-        "BoxOffice": "N/A",
-        "Production": "N/A",
-        "Website": "N/A",
-        "Response": "True"
-    }
+  {
+    "Title": "Black Adam",
+    "Year": "2022",
+    "Rated": "PG-13",
+    "Released": "21 Oct 2022",
+    "Runtime": "125 min",
+    "Genre": "Action, Adventure, Fantasy",
+    "Director": "Jaume Collet-Serra",
+    "Writer": "Adam Sztykiel, Rory Haines, Sohrab Noshirvani",
+    "Actors": "Dwayne Johnson, Aldis Hodge, Pierce Brosnan",
+    "Plot": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods--and imprisoned just as quickly--Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "1 nomination",
+    "trailer": "https://www.youtube.com/watch?v=X0tOpBuYasI",
+    "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/709072_pthumbnail_320.jpg",
+    "backdrop": "https://cdn.watchmode.com/backdrops/01504520_bd_w780.jpg",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYzZkOGUwMzMtMTgyNS00YjFlLTg5NzYtZTE3Y2E5YTA5NWIyXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.9/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "40%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "41/100"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": 24,
+        "name": "Amazon",
+        "type": "rent",
+        "region": "US",
+        "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.1a7638b2-3f5e-464a-a271-07c2e2ec1f8c?",
+        "format": "4K",
+        "price": 19.99
+      },
+      {
+        "source_id": 140,
+        "name": "Google Play",
+        "type": "rent",
+        "region": "US",
+        "web_url": "https://play.google.com/store/movies/details/Black_Adam?gl=US&hl=en&id=XYiVF56FIpI.P",
+        "format": "4K",
+        "price": 19.99
+      },
+      {
+        "source_id": 344,
+        "name": "YouTube",
+        "type": "rent",
+        "region": "US",
+        "web_url": "https://www.youtube.com/results?search_query=Black+Adam%2Bmovie",
+        "format": "4K",
+        "price": 19.99
+      },
+      {
+        "source_id": 349,
+        "name": "iTunes",
+        "type": "rent",
+        "region": "US",
+        "web_url": "https://tv.apple.com/us/movie/black-adam/umc.cmc.59e2494tiq7gyhupr30n1mor1?playableId=tvs.sbd.9001%3A1646543268",
+        "format": "4K",
+        "price": 19.99
+      }
+    ],
+    "Metascore": "41",
+    "imdbRating": "6.9",
+    "imdbVotes": "120,081",
+    "imdbID": "tt6443346",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "Title": "Troll",
+    "Year": "2022",
+    "Rated": "PG-13",
+    "Released": "01 Dec 2022",
+    "Runtime": "101 min",
+    "Genre": "Action, Adventure, Fantasy",
+    "Director": "Roar Uthaug",
+    "Writer": "Espen Aukan, Roar Uthaug",
+    "Actors": "Ine Marie Wilmann, Kim Falck, Mads Sjogord Pettersen",
+    "Plot": "Deep in the Dovre mountain, something gigantic wakes up after a thousand years in captivity. The creature destroys everything in its path and quickly approaches Oslo.",
+    "Language": "Norwegian",
+    "Country": "Norway",
+    "Awards": "N/A",
+    "trailer": "https://www.youtube.com/watch?v=ahgfyU-oSTs",
+    "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/724115_pthumbnail_320.jpg",
+    "poster": "https://cdn.watchmode.com/posters/01675233_poster_w185.jpg",
+    "backdrop": "https://cdn.watchmode.com/backdrops/01675233_bd_w780.jpg",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BOWQzMDc5OTMtMjFiMy00M2I3LWIyZWMtODM4NTRhMGI2ZTRkXkEyXkFqcGdeQXVyNDAxNzcyNw@@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "90%"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": 203,
+        "name": "Netflix",
+        "type": "sub",
+        "region": "US",
+        "web_url": "https://www.netflix.com/watch/81245455",
+        "format": "HD"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "N/A",
+    "imdbVotes": "N/A",
+    "imdbID": "tt11116912",
+    "Type": "movie",
+    "DVD": "01 Dec 2022",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "Title": "The Woman King",
+    "Year": "2022",
+    "Rated": "PG-13",
+    "Released": "16 Sep 2022",
+    "Runtime": "135 min",
+    "Genre": "Action, Drama, History",
+    "Director": "Gina Prince-Bythewood",
+    "Writer": "Dana Stevens, Maria Bello",
+    "Actors": "Viola Davis, Thuso Mbedu, Lashana Lynch",
+    "Plot": "A historical epic inspired by true events that took place in The Kingdom of Dahomey, one of the most powerful states of Africa in the 18th and 19th centuries.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "2 nominations",
+    "trailer": "https://www.youtube.com/watch?v=yaYogi3zzRY",
+    "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/679445_pthumbnail_320.jpg",
+    "poster": "https://cdn.watchmode.com/posters/01615842_poster_w185.jpg",
+    "backdrop": "https://cdn.watchmode.com/backdrops/01615842_bd_w780.jpg",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BY2I4MDIwYWUtOWMxNC00ZTIzLWE3OGYtOWUyMmIwZGE2NjU4XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.7/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "94%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "77/100"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": 24,
+        "name": "Amazon",
+        "type": "buy",
+        "region": "US",
+        "web_url": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.26844fbf-ff58-4d27-9cd3-3f8b48122245",
+        "format": "4K",
+        "price": 19.99
+      },
+      {
+        "source_id": 140,
+        "name": "Google Play",
+        "type": "buy",
+        "region": "US",
+        "web_url": "https://play.google.com/store/movies/details/The_Woman_King?gl=US&hl=en&id=dYKWSdXf6rw.P",
+        "format": "4K",
+        "price": 19.99
+      },
+      {
+        "source_id": 344,
+        "name": "YouTube",
+        "type": "buy",
+        "region": "US",
+        "web_url": "https://www.youtube.com/results?search_query=The+Woman+King%2Bmovie",
+        "format": "4K",
+        "price": 19.99
+      },
+      {
+        "source_id": 349,
+        "name": "iTunes",
+        "type": "buy",
+        "region": "US",
+        "web_url": "https://tv.apple.com/us/movie/the-woman-king/umc.cmc.5av1wo84gd2pj5vsx1m3fbok8?playableId=tvs.sbd.9001%3A1643239728",
+        "format": "4K",
+        "price": 19.99
+      }
+    ],
+    "Metascore": "77",
+    "imdbRating": "6.7",
+    "imdbVotes": "36,676",
+    "imdbID": "tt8093700",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$65,259,367",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "Title": "R.I.P.D. 2: Rise of the Damned",
+    "Year": "2022",
+    "Rated": "PG-13",
+    "Released": "15 Nov 2022",
+    "Runtime": "102 min",
+    "Genre": "Action, Comedy",
+    "Director": "Paul Leyden",
+    "Writer": "Andrew Klein, Paul Leyden",
+    "Actors": "Jeffrey Donovan, Rachel Adedeji, Penelope Mitchell",
+    "Plot": "Recruited by the R.I.P.D., a resurrected sheriff returns to Earth to save humanity from a gateway to hell.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "N/A",
+    "trailer": "https://youtu.be/3ofbmexavbc",
+    "trailer_thumbnail": "",
+    "poster": "https://cdn.watchmode.com/posters/01690871_poster_w185.jpg",
+    "backdrop": "https://cdn.watchmode.com/backdrops/01690871_bd_w780.jpg",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZDM5YTI5MWUtMWI0YS00NjMyLThjODMtMzFjMTg1ZTgwZDEyXkEyXkFqcGdeQXVyODQ4NjA3Mw@@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "4.5/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "4.5",
+    "imdbVotes": "1,006",
+    "imdbID": "tt21094994",
+    "Type": "movie",
+    "DVD": "15 Nov 2022",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "Title": "Margaux",
+    "Year": "2022",
+    "Rated": "R",
+    "Released": "09 Sep 2022",
+    "Runtime": "104 min",
+    "Genre": "Horror, Thriller",
+    "Director": "Steven C. Miller",
+    "Writer": "Chris Beyrooty, Chris Sivertson, Nick Waters",
+    "Actors": "Madison Pettis, Vanessa Morgan, Jedidiah Goodacre",
+    "Plot": "A group of college friends rent a smart house for a weekend of partying. Later, they start to realize that Margaux, the house's super advanced AI system, has sinister designs for them.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "N/A",
+    "trailer": "https://youtu.be/3LJPT93_pLI",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BODE1NjRiYjUtZmQwYi00Yzg5LWE1YWUtZjRkZmMzN2FiMTBmXkEyXkFqcGdeQXVyNjE2MzI5ODM@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "4.4/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "71%"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": 24,
+        "name": "Amazon",
+        "type": "rent",
+        "region": "US",
+        "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.01436aec-de65-4670-ae8d-d2fce49739d5?",
+        "format": "HD",
+        "price": 5.99
+      },
+      {
+        "source_id": 140,
+        "name": "Google Play",
+        "type": "rent",
+        "region": "US",
+        "web_url": "https://play.google.com/store/movies/details/R_I_P_D_2_Rise_of_the_Damned?gl=US&hl=en&id=FV01pB5bBu8.P",
+        "format": "HD",
+        "price": 5.99
+      },
+      {
+        "source_id": 344,
+        "name": "YouTube",
+        "type": "rent",
+        "region": "US",
+        "web_url": "https://www.youtube.com/results?search_query=R.I.P.D.+2%3A+Rise+of+the+Damned%2Bmovie",
+        "format": "HD",
+        "price": 5.99
+      },
+      {
+        "source_id": 349,
+        "name": "iTunes",
+        "type": "rent",
+        "region": "US",
+        "web_url": "https://tv.apple.com/us/movie/ripd-2-rise-of-the-damned/umc.cmc.7b5mwsgl42se4d3aidmc6ojho?playableId=tvs.sbd.9001%3A1653085436",
+        "format": "HD",
+        "price": 5.99
+      },
+      {
+        "source_id": 203,
+        "name": "Netflix",
+        "type": "sub",
+        "region": "US",
+        "web_url": "https://www.netflix.com/watch/81624693",
+        "format": "HD",
+        "price": "sub"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "4.4",
+    "imdbVotes": "899",
+    "imdbID": "tt14967618",
+    "Type": "movie",
+    "DVD": "09 Sep 2022",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "Title": "Lesson Plan",
+    "Year": "2022",
+    "Rated": "Not Rated",
+    "Released": "23 Nov 2022",
+    "Runtime": "101 min",
+    "Genre": "Action, Crime",
+    "Director": "Daniel Markowicz",
+    "Writer": "Daniel Bernardi",
+    "Actors": "Marcin Bosak, Pascal Fischer, Zuzanna Galewicz",
+    "Plot": "After a teacher dies, his best friend, a former cop, takes a job at the school where he worked to confront the gang he thinks was responsible.",
+    "Language": "Polish",
+    "Country": "N/A",
+    "Awards": "N/A",
+    "trailer": "https://youtu.be/W3AvQOf_kKo",
+    "trailer_thumbnail": "",
+    "Poster": "https://cdn.watchmode.com/posters/01698025_poster_w185.jpg",
+    "poster": "https://cdn.watchmode.com/posters/01698025_poster_w185.jpg",
+    "backdrop": "https://cdn.watchmode.com/backdrops/01698025_bd_w780.jpg",
+    "Ratings": [],
+    "sources": [
+      {
+        "source_id": 203,
+        "name": "Netflix",
+        "type": "sub",
+        "region": "US",
+        "web_url": "https://www.netflix.com/watch/81498377",
+        "format": "HD",
+        "price": "sub"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "N/A",
+    "imdbVotes": "N/A",
+    "imdbID": "tt23343786",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "Title": "Black Panther: Wakanda Forever",
+    "Year": "2022",
+    "Rated": "PG-13",
+    "Released": "11 Nov 2022",
+    "Runtime": "161 min",
+    "Genre": "Action, Adventure, Drama",
+    "Director": "Ryan Coogler",
+    "Writer": "Ryan Coogler, Joe Robert Cole",
+    "Actors": "Letitia Wright, Lupita Nyong'o, Danai Gurira",
+    "Plot": "Queen Ramonda, Shuri, M Baku, Okoye and the Dora Milaje fight to protect their nation from intervening world powers in the wake of King T Challa's death. As the Wakandans strive to embrace their next chapter, the heroes must band together with the help of War Dog Nakia and Everett Ross and forge a new path for the kingdom of Wakanda.",
+    "Language": "English, Spanish",
+    "Country": "United States",
+    "Awards": "3 nominations",
+    "trailer": "https://www.youtube.com/watch?v=FtLjCEVf3NQ",
+    "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/723919_pthumbnail_320.jpg",
+    "poster": "https://cdn.watchmode.com/posters/01491945_poster_w185.jpg",
+    "backdrop": "https://cdn.watchmode.com/backdrops/01491945_bd_w780.jpg",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNTM4NjIxNmEtYWE5NS00NDczLTkyNWQtYThhNmQyZGQzMjM0XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.3/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "84%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "67/100"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": 203,
+        "name": "In theaters",
+        "type": "",
+        "region": "US",
+        "web_url": "",
+        "format": "",
+        "price": "N/A"
+      }
+    ],
+    "Metascore": "67",
+    "imdbRating": "7.3",
+    "imdbVotes": "103,643",
+    "imdbID": "tt9114286",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "Title": "Frank and Penelope",
+    "Year": "2022",
+    "Rated": "R",
+    "Released": "07 Aug 2022",
+    "Runtime": "112 min",
+    "Genre": "Thriller",
+    "Director": "Sean Patrick Flanery",
+    "Writer": "Sean Patrick Flanery, John Thaddeus",
+    "Actors": "Billy Budinich, Caylee Cowan, Johnathon Schaech",
+    "Plot": "A tale of love and violence when a man on his emotional last legs finds a savior seductively dancing in a run-down strip club. And a life most certainly headed off a cliff suddenly becomes redirected - as EVERYTHING is now worth dying for",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "N/A",
+    "trailer": "https://www.youtube.com/watch?v=0p0JHBNjjRo",
+    "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/716776_pthumbnail_320.jpg",
+    "poster": "https://cdn.watchmode.com/posters/01648654_poster_w185.jpg",
+    "backdrop": "https://cdn.watchmode.com/backdrops/01648654_bd_w780.jpg",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZjM5NjBmODQtY2IwZS00MDY3LWFkY2UtMTQxZTQ5N2YyYjg4XkEyXkFqcGdeQXVyNzc3MDg1NTM@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "5.2/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "25%"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": 140,
+        "name": "Google Play",
+        "type": "rent",
+        "region": "US",
+        "web_url": "https://play.google.com/store/movies/details/Frank_Penelope?gl=US&hl=en&id=6wj7i14h54c.P",
+        "format": "HD",
+        "price": 4.99
+      },
+      {
+        "source_id": 344,
+        "name": "YouTube",
+        "type": "rent",
+        "region": "US",
+        "web_url": "https://www.youtube.com/results?search_query=Frank+%26+Penelope%2Bmovie",
+        "format": "HD",
+        "price": 4.99
+      },
+      {
+        "source_id": 24,
+        "name": "Amazon",
+        "type": "rent",
+        "region": "US",
+        "web_url": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.96088a10-c2dc-4307-862f-3a8fbb1cc8d9",
+        "format": "HD",
+        "price": 4.99
+      },
+      {
+        "source_id": 349,
+        "name": "iTunes",
+        "type": "rent",
+        "region": "US",
+        "web_url": "https://tv.apple.com/us/movie/frank-and-penelope/umc.cmc.51u63s1wn1zx2br0tmimo3dep?playableId=tvs.sbd.9001%3A1633402962",
+        "format": "HD",
+        "price": 4.99
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "5.2",
+    "imdbVotes": "517",
+    "imdbID": "tt4459134",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "Title": "Hex",
+    "Year": "2022",
+    "Rated": "R",
+    "Released": "01 Nov 2022",
+    "Runtime": "88 min",
+    "Genre": "Action, Adventure, Horror",
+    "Director": "Chris Johnston, Andy Malchiodi",
+    "Writer": "Hans Rodionoff",
+    "Actors": "Kayla Adams, Matthew Holcomb, Bryan Roberts",
+    "Plot": "Following a mysterious disappearance on a jump, a group of skydivers experience paranormal occurrences that leave them fighting for their lives.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "N/A",
+    "trailer": "https://www.youtube.com/watch?v=FJsEtCV2dMM",
+    "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/722580_pthumbnail_320.jpg",
+    "poster": "https://cdn.watchmode.com/posters/01685861_poster_w185.jpg",
+    "backdrop": "https://cdn.watchmode.com/backdrops/01685861_bd_w780.jpg",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNjY5NzQ3ODEtMDExMi00MTQ3LWJjN2EtMzQ5YzY0NGJhNjU1XkEyXkFqcGdeQXVyOTg4MDYyNw@@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "3.2/10"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": 24,
+        "name": "Amazon",
+        "type": "rent",
+        "region": "US",
+        "web_url": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.4aac5c72-3ef2-43d4-89fb-1b3daaaf616f",
+        "format": "4K",
+        "price": 5.99
+      },
+      {
+        "source_id": 349,
+        "name": "iTunes",
+        "type": "rent",
+        "region": "US",
+        "web_url": "https://tv.apple.com/us/movie/hex/umc.cmc.4ty997h7xpqdqk8d0vqif8v5d?playableId=tvs.sbd.9001%3A1638877863",
+        "format": "4K",
+        "price": 5.99
+      },
+      {
+        "source_id": 140,
+        "name": "Google Play",
+        "type": "rent",
+        "region": "US",
+        "web_url": "https://play.google.com/store/movies/details/Hex?gl=US&hl=en&id=QT3OXklx6F8.P",
+        "format": "4K",
+        "price": 5.99
+      },
+      {
+        "source_id": 344,
+        "name": "YouTube",
+        "type": "rent",
+        "region": "US",
+        "web_url": "https://www.youtube.com/results?search_query=Hex%2Bmovie",
+        "format": "4K",
+        "price": 5.99
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "3.2",
+    "imdbVotes": "279",
+    "imdbID": "tt6969338",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "Title": "Corrective Measures",
+    "Year": "2022",
+    "Rated": "Not Rated",
+    "Released": "29 Apr 2022",
+    "Runtime": "106 min",
+    "Genre": "Action, Sci-Fi, Thriller",
+    "Director": "Sean Patrick O'Reilly",
+    "Writer": "Grant Chastain, Sean Patrick O'Reilly",
+    "Actors": "Bruce Willis, Michael Rooker, Tom Cavanagh",
+    "Plot": "Set in the world's most dangerous maximum-security penitentiary, home to the most treacherous criminals, tensions among the inmates and staff heighten, leading to anarchy that engulfs the prison and order is turned upside down.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "N/A",
+    "trailer": "https://www.youtube.com/watch?v=HFzoGb4gsv8",
+    "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/720632_pthumbnail_320.jpg",
+    "poster": "https://cdn.watchmode.com/posters/01679906_poster_w185.jpg",
+    "backdrop": "https://cdn.watchmode.com/backdrops/01679906_bd_w780.jpg",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMmY2MjQzY2YtZWIwNS00YjhhLWJjZWMtMzk3NzdhNTM2YmIyXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "4.8/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "60%"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": 296,
+        "name": "Tubi TV",
+        "type": "free",
+        "region": "US",
+        "web_url": "https://tubitv.com/movies/665895?&",
+        "format": "HD",
+        "price": "free"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "4.8",
+    "imdbVotes": "1,764",
+    "imdbID": "tt15391770",
+    "Type": "movie",
+    "DVD": "29 Apr 2022",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "Title": "One Way",
+    "Year": "2022",
+    "Rated": "R",
+    "Released": "02 Sep 2022",
+    "Runtime": "95 min",
+    "Genre": "Action, Thriller",
+    "Director": "Andrew Baird",
+    "Writer": "Ben Conway",
+    "Actors": "Kevin Bacon, Travis Fimmel, Drea de Matteo",
+    "Plot": "Freddy, a petty criminal, is on the run with a bag full of cash and coke. He's way over his head and hurt bad. With a bullet in his guts he's running out of time.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "N/A",
+    "trailer": "https://www.youtube.com/watch?v=Re1vbqUPe8Y",
+    "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/666697_pthumbnail_320.jpg",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNWE4NjdkODUtNzc0Yy00NmZkLTk4OTItYWY4MTE0ODk5MTkzXkEyXkFqcGdeQXVyMTM0ODMzMDcz._V1_SX300.jpg",
+    "Ratings": [
+      { "Source": "Internet Movie Database", "Value": "3.9/10" },
+      { "Source": "Rotten Tomatoes", "Value": "56%" },
+      { "Source": "Metacritic", "Value": "46/100" }
+    ],
+    "sources": [
+        {
+            "source_id": 24,
+            "name": "Amazon",
+            "type": "rent",
+            "region": "US",
+            "ios_url": "Deeplinks available for paid plans only.",
+            "android_url": "Deeplinks available for paid plans only.",
+            "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.1769e95a-e3cd-4477-8e6c-a1e9769d21dc?",
+            "format": "HD",
+            "price": 3.99
+        },
+        {
+            "source_id": 344,
+            "name": "YouTube",
+            "type": "rent",
+            "region": "US",
+            "ios_url": "Deeplinks available for paid plans only.",
+            "android_url": "Deeplinks available for paid plans only.",
+            "web_url": "https://www.youtube.com/results?search_query=One+Way%2Bmovie",
+            "format": "HD",
+            "price": 5.99
+        },
+        {
+            "source_id": 349,
+            "name": "iTunes",
+            "type": "rent",
+            "region": "US",
+            "ios_url": "Deeplinks available for paid plans only.",
+            "android_url": "Deeplinks available for paid plans only.",
+            "web_url": "https://tv.apple.com/us/movie/one-way/umc.cmc.5fiigchtxj0gys8vn7w0w47xw?playableId=tvs.sbd.9001%3A1638070716",
+            "format": "HD",
+            "price": 5.99
+            
+        }],
+    "Metascore": "46",
+    "imdbRating": "3.9",
+    "imdbVotes": "913",
+    "imdbID": "tt13075730",
+    "Type": "movie",
+    "DVD": "02 Sep 2022",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {"Title":"The Minute You Wake up Dead","Year":"2022","Rated":"R","Released":"04 Nov 2022","Runtime":"90 min","Genre":"Thriller","Director":"Michael Mailer","Writer":"Timothy Holland, Michael Mailer","Actors":"Cole Hauser, Jaimie Alexander, Darren Mann","Plot":"A stockbroker in a small southern town who gets involved in an insurance scam with a next-door neighbor that leads to multiple murders.","Language":"English","Country":"United States","Awards":"N/A","Poster":"https://m.media-amazon.com/images/M/MV5BOTlkNmY0YmYtM2NmMC00YzU3LWJiNWYtODJmNjE2Mjk5NDkyXkEyXkFqcGdeQXVyOTg4MDYyNw@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"4.2/10"},{"Source":"Rotten Tomatoes","Value":"0%"}],"Metascore":"N/A","imdbRating":"4.2","imdbVotes":"606","imdbID":"tt11833408","Type":"movie","DVD":"04 Nov 2022","BoxOffice":"N/A","Production":"N/A","Website":"N/A","Response":"True"},
+  {"Title":"Paradise City","Year":"2022","Rated":"R","Released":"11 Nov 2022","Runtime":"92 min","Genre":"Action, Thriller","Director":"Chuck Russell","Writer":"Edward Drake, Corey Large, Chuck Russell","Actors":"Bruce Willis, John Travolta, Stephen Dorff","Plot":"Ryan Swan must carve his way through the Hawaiian crime world to wreak vengeance on the kingpin who murdered his father.","Language":"English","Country":"United States","Awards":"N/A","Poster":"https://m.media-amazon.com/images/M/MV5BNTdhNWE1YjAtNWMzMS00ZmUzLWFjN2EtOWJlMGRkMTdiNGQ4XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"3.6/10"},{"Source":"Rotten Tomatoes","Value":"8%"},{"Source":"Metacritic","Value":"29/100"}],"Metascore":"29","imdbRating":"3.6","imdbVotes":"916","imdbID":"tt14656632","Type":"movie","DVD":"11 Nov 2022","BoxOffice":"N/A","Production":"N/A","Website":"N/A","Response":"True"},
+  {"Title":"Polar","Year":"2022","Rated":"R","Released":"26 Oct 2022","Runtime":"N/A","Genre":"Action, Adventure, Thriller","Director":"Alberto Palma","Writer":"N/A","Actors":"Pedro Casablanc, Álvaro Cervantes, Stany Coppet","Plot":"N/A","Language":"Spanish","Country":"Spain","Awards":"N/A","Poster":"https://m.media-amazon.com/images/M/MV5BNDY0OWI3MGMtYTIyMi00ZDYyLTk4NDEtZjQ0ZDBjNzllZmUwXkEyXkFqcGdeQXVyMjIyNTgxOTU@._V1_SX300.jpg","Ratings":[],"Metascore":"N/A","imdbRating":"N/A","imdbVotes":"8","imdbID":"tt15327556","Type":"movie","DVD":"N/A","BoxOffice":"N/A","Production":"N/A","Website":"N/A","Response":"True"},
+  {"Title":"Smile","Year":"2022","Rated":"R","Released":"30 Sep 2022","Runtime":"115 min","Genre":"Horror, Mystery, Thriller","Director":"Parker Finn","Writer":"Parker Finn","Actors":"Sosie Bacon, Jessie T. Usher, Kyle Gallner","Plot":"After witnessing a bizarre, traumatic incident involving a patient, Dr. Rose Cotter starts experiencing frightening occurrences that she can't explain. Rose must confront her troubling past in order to survive and escape her horri...","Language":"English","Country":"United States","Awards":"3 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BZjE2ZWIwMWEtNGFlMy00ZjYzLWEzOWEtYzQ0MDAwZDRhYzNjXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"6.6/10"},{"Source":"Rotten Tomatoes","Value":"79%"},{"Source":"Metacritic","Value":"68/100"}],"Metascore":"68","imdbRating":"6.6","imdbVotes":"73,199","imdbID":"tt15474916","Type":"movie","DVD":"15 Nov 2022","BoxOffice":"$99,453,841","Production":"N/A","Website":"N/A","Response":"True"},
+  {"Title":"Prey for the Devil","Year":"2022","Rated":"PG-13","Released":"28 Oct 2022","Runtime":"93 min","Genre":"Horror, Thriller","Director":"Daniel Stamm","Writer":"Robert Zappia, Todd R. Jones, Earl Richey Jones","Actors":"Virginia Madsen, Jacqueline Byers, Colin Salmon","Plot":"A nun prepares to perform an exorcism and comes face to face with a demonic force with mysterious ties to her past.","Language":"English","Country":"United States","Awards":"N/A","Poster":"https://m.media-amazon.com/images/M/MV5BNzNjNmE4YTktMTZiNS00YTQ0LWExY2YtZTU2MGNiNzBiMzI5XkEyXkFqcGdeQXVyMTA0OTI1NDM2._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"5.2/10"},{"Source":"Rotten Tomatoes","Value":"16%"},{"Source":"Metacritic","Value":"38/100"}],"Metascore":"38","imdbRating":"5.2","imdbVotes":"4,338","imdbID":"tt9271672","Type":"movie","DVD":"N/A","BoxOffice":"$8,254,099","Production":"N/A","Website":"N/A","Response":"True"},
+  {"Title":"Fall","Year":"2022","Rated":"PG-13","Released":"12 Aug 2022","Runtime":"107 min","Genre":"Thriller","Director":"Scott Mann","Writer":"Jonathan Frank, Scott Mann","Actors":"Grace Caroline Currey, Virginia Gardner, Mason Gooding","Plot":"Best friends Becky and Hunter find themselves at the top of a 2,000-foot radio tower.","Language":"English","Country":"United Kingdom, United States","Awards":"N/A","Poster":"https://m.media-amazon.com/images/M/MV5BNGI3MWYwYjItNzZhYi00ZWIzLTkyMzYtN2JmNjg3ODg1NTg4XkEyXkFqcGdeQXVyMTMwMDA5ODU3._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"6.4/10"},{"Source":"Rotten Tomatoes","Value":"79%"},{"Source":"Metacritic","Value":"62/100"}],"Metascore":"62","imdbRating":"6.4","imdbVotes":"45,542","imdbID":"tt15325794","Type":"movie","DVD":"N/A","BoxOffice":"$7,234,812","Production":"N/A","Website":"N/A","Response":"True"},
+  {"Title":"Hellraiser","Year":"2022","Rated":"R","Released":"07 Oct 2022","Runtime":"121 min","Genre":"Horror, Mystery, Thriller","Director":"David Bruckner","Writer":"Ben Collins, Luke Piotrowski, David S. Goyer","Actors":"Odessa A’zion, Jamie Clayton, Adam Faison","Plot":"A take on Clive Barker's 1987 horror classic where a young woman struggling with addiction comes into possession of an ancient puzzle box, unaware that its purpose is to summon the Cenobites.","Language":"English","Country":"United States, Serbia","Awards":"N/A","Poster":"https://m.media-amazon.com/images/M/MV5BYWM1YTgxNjMtNzY2NC00YjVmLWE1ODUtNTdiYTI4YjZhODMwXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"6.0/10"},{"Source":"Metacritic","Value":"55/100"}],"Metascore":"55","imdbRating":"6.0","imdbVotes":"33,786","imdbID":"tt0887261","Type":"movie","DVD":"N/A","BoxOffice":"N/A","Production":"N/A","Website":"N/A","Response":"True"},
+  {"Title":"Top Gun: Maverick","Year":"2022","Rated":"PG-13","Released":"27 May 2022","Runtime":"130 min","Genre":"Action, Drama","Director":"Joseph Kosinski","Writer":"Jim Cash, Jack Epps Jr., Peter Craig","Actors":"Tom Cruise, Jennifer Connelly, Miles Teller","Plot":"After thirty years, Maverick is still pushing the envelope as a top naval aviator, but must confront ghosts of his past when he leads TOP GUN's elite graduates on a mission that demands the ultimate sacrifice from those chosen to ...","Language":"English","Country":"United States","Awards":"4 wins & 16 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BZWYzOGEwNTgtNWU3NS00ZTQ0LWJkODUtMmVhMjIwMjA1ZmQwXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.4/10"},{"Source":"Rotten Tomatoes","Value":"96%"},{"Source":"Metacritic","Value":"78/100"}],"Metascore":"78","imdbRating":"8.4","imdbVotes":"435,970","imdbID":"tt1745960","Type":"movie","DVD":"22 Aug 2022","BoxOffice":"$716,498,761","Production":"N/A","Website":"N/A","Response":"True"},
+  {"Title":"Spider-Man: No Way Home","Year":"2021","Rated":"PG-13","Released":"17 Dec 2021","Runtime":"148 min","Genre":"Action, Adventure, Fantasy","Director":"Jon Watts","Writer":"Chris McKenna, Erik Sommers, Stan Lee","Actors":"Tom Holland, Zendaya, Benedict Cumberbatch","Plot":"With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.","Language":"English","Country":"United States","Awards":"Nominated for 1 Oscar. 35 wins & 67 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.3/10"},{"Source":"Rotten Tomatoes","Value":"93%"},{"Source":"Metacritic","Value":"71/100"}],"Metascore":"71","imdbRating":"8.3","imdbVotes":"746,844","imdbID":"tt10872600","Type":"movie","DVD":"N/A","BoxOffice":"$814,115,070","Production":"N/A","Website":"N/A","Response":"True"},
+  {"Title":"Thor: Love and Thunder","Year":"2022","Rated":"PG-13","Released":"08 Jul 2022","Runtime":"118 min","Genre":"Action, Adventure, Comedy","Director":"Taika Waititi","Writer":"Taika Waititi, Jennifer Kaytin Robinson, Stan Lee","Actors":"Chris Hemsworth, Natalie Portman, Christian Bale","Plot":"Thor enlists the help of Valkyrie, Korg and ex-girlfriend Jane Foster to fight Gorr the God Butcher, who intends to make the gods extinct.","Language":"English","Country":"Australia, United States","Awards":"7 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BYmMxZWRiMTgtZjM0Ny00NDQxLWIxYWQtZDdlNDNkOTEzYTdlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"6.4/10"},{"Source":"Rotten Tomatoes","Value":"64%"},{"Source":"Metacritic","Value":"57/100"}],"Metascore":"57","imdbRating":"6.4","imdbVotes":"317,371","imdbID":"tt10648342","Type":"movie","DVD":"08 Sep 2022","BoxOffice":"$343,256,830","Production":"N/A","Website":"N/A","Response":"True"},
+  {"Title":"Jurassic World: Dominion","Year":"2022","Rated":"PG-13","Released":"10 Jun 2022","Runtime":"147 min","Genre":"Action, Adventure, Sci-Fi","Director":"Colin Trevorrow","Writer":"Emily Carmichael, Colin Trevorrow, Derek Connolly","Actors":"Chris Pratt, Bryce Dallas Howard, Laura Dern","Plot":"Four years after the destruction of Isla Nublar, Biosyn operatives attempt to track down Maisie Lockwood, while Dr Ellie Sattler investigates a genetically engineered swarm of giant insects.","Language":"English","Country":"United States, China, Malta","Awards":"4 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BOTBjMjA4NmYtN2RjMi00YWZlLTliYTktOTIwMmNkYjYxYmE1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"5.7/10"},{"Source":"Rotten Tomatoes","Value":"29%"},{"Source":"Metacritic","Value":"38/100"}],"Metascore":"38","imdbRating":"5.7","imdbVotes":"150,663","imdbID":"tt8041270","Type":"movie","DVD":"02 Sep 2022","BoxOffice":"$374,817,385","Production":"N/A","Website":"N/A","Response":"True"},
+  {"Title":"Pinocchio","Year":"2022","Rated":"PG","Released":"08 Sep 2022","Runtime":"105 min","Genre":"Adventure, Comedy, Drama","Director":"Robert Zemeckis","Writer":"Robert Zemeckis, Chris Weitz, Carlo Collodi","Actors":"Joseph Gordon-Levitt, Tom Hanks, Benjamin Evan Ainsworth","Plot":"A puppet is brought to life by a fairy, who assigns him to lead a virtuous life in order to become a real boy.","Language":"English","Country":"United States","Awards":"2 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BZDIyYjM3N2EtOTU1MC00YTA4LTgzNjctMTNjODcxZTZhODU2XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"5.1/10"},{"Source":"Rotten Tomatoes","Value":"28%"},{"Source":"Metacritic","Value":"38/100"}],"Metascore":"38","imdbRating":"5.1","imdbVotes":"32,761","imdbID":"tt4593060","Type":"movie","DVD":"08 Sep 2022","BoxOffice":"N/A","Production":"N/A","Website":"N/A","Response":"True"},
+  {"Title":"Prey","Year":"2022","Rated":"R","Released":"05 Aug 2022","Runtime":"100 min","Genre":"Action, Adventure, Drama","Director":"Dan Trachtenberg","Writer":"Patrick Aison, Dan Trachtenberg, Jim Thomas","Actors":"Amber Midthunder, Dakota Beavers, Dane DiLiegro","Plot":"Naru, a skilled warrior of the Comanche Nation, fights to protect her tribe against one of the first highly-evolved Predators to land on Earth.","Language":"English, North American Indian, French","Country":"United States","Awards":"1 win & 7 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BMDBlMDYxMDktOTUxMS00MjcxLWE2YjQtNjNhMjNmN2Y3ZDA1XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.2/10"},{"Source":"Rotten Tomatoes","Value":"93%"},{"Source":"Metacritic","Value":"71/100"}],"Metascore":"71","imdbRating":"7.2","imdbVotes":"188,533","imdbID":"tt11866324","Type":"movie","DVD":"05 Aug 2022","BoxOffice":"N/A","Production":"N/A","Website":"N/A","Response":"True"},
+  {"Title":"Scary Movie","Year":"2000","Rated":"R","Released":"07 Jul 2000","Runtime":"88 min","Genre":"Comedy","Director":"Keenen Ivory Wayans","Writer":"Shawn Wayans, Marlon Wayans, Buddy Johnson","Actors":"Anna Faris, Jon Abrahams, Marlon Wayans","Plot":"A year after disposing of the body of a man they accidentally killed, a group of dumb teenagers are stalked by a bumbling serial killer.","Language":"English","Country":"United States","Awards":"7 wins & 6 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BMGEzZjdjMGQtZmYzZC00N2I4LThiY2QtNWY5ZmQ3M2ExZmM4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"6.2/10"},{"Source":"Rotten Tomatoes","Value":"51%"},{"Source":"Metacritic","Value":"48/100"}],"Metascore":"48","imdbRating":"6.2","imdbVotes":"263,309","imdbID":"tt0175142","Type":"movie","DVD":"12 Dec 2000","BoxOffice":"$157,019,771","Production":"N/A","Website":"N/A","Response":"True"},
+  {"Title":"How the Grinch Stole Christmas","Year":"2000","Rated":"PG","Released":"17 Nov 2000","Runtime":"104 min","Genre":"Comedy, Family, Fantasy","Director":"Ron Howard","Writer":"Dr. Seuss, Jeffrey Price, Peter S. Seaman","Actors":"Jim Carrey, Taylor Momsen, Kelley","Plot":"On the outskirts of Whoville lives a green, revenge-seeking Grinch who plans to ruin Christmas for all of the citizens of the town.","Language":"English","Country":"United States, Germany","Awards":"Won 1 Oscar. 18 wins & 37 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BNWNiNTczNzEtMjQyZC00MjFmLTkzMDMtODk4ZGMyZmE0N2E4XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"6.2/10"},{"Source":"Rotten Tomatoes","Value":"49%"},{"Source":"Metacritic","Value":"46/100"}],"Metascore":"46","imdbRating":"6.2","imdbVotes":"248,209","imdbID":"tt0170016","Type":"movie","DVD":"17 Sep 2003","BoxOffice":"$260,715,005","Production":"N/A","Website":"N/A","Response":"True"},
+  {"Title":"Bullet Train","Year":"2022","Rated":"R","Released":"05 Aug 2022","Runtime":"127 min","Genre":"Action, Comedy, Thriller","Director":"David Leitch","Writer":"Zak Olkewicz, Kôtarô Isaka","Actors":"Brad Pitt, Joey King, Aaron Taylor-Johnson","Plot":"Five assassins aboard a swiftly-moving bullet train find out that their missions have something in common.","Language":"English, Japanese, Spanish, Russian","Country":"United States, Japan","Awards":"2 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BMDU2ZmM2OTYtNzIxYy00NjM5LTliNGQtN2JmOWQzYTBmZWUzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.3/10"},{"Source":"Rotten Tomatoes","Value":"53%"},{"Source":"Metacritic","Value":"49/100"}],"Metascore":"49","imdbRating":"7.3","imdbVotes":"223,051","imdbID":"tt12593682","Type":"movie","DVD":"N/A","BoxOffice":"$103,201,775","Production":"N/A","Website":"N/A","Response":"True"},
+  {"Title":"Doctor Strange in the Multiverse of Madness","Year":"2022","Rated":"PG-13","Released":"06 May 2022","Runtime":"126 min","Genre":"Action, Adventure, Fantasy","Director":"Sam Raimi","Writer":"Michael Waldron, Stan Lee, Steve Ditko","Actors":"Benedict Cumberbatch, Elizabeth Olsen, Chiwetel Ejiofor","Plot":"Doctor Strange teams up with a mysterious teenage girl from his dreams who can travel across multiverses, to battle multiple threats, including other-universe versions of himself, which threaten to wipe out millions across the mul...","Language":"English, Spanish, Chinese","Country":"United States","Awards":"5 wins & 9 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BNWM0ZGJlMzMtZmYwMi00NzI3LTgzMzMtNjMzNjliNDRmZmFlXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"6.9/10"},{"Source":"Rotten Tomatoes","Value":"74%"},{"Source":"Metacritic","Value":"60/100"}],"Metascore":"60","imdbRating":"6.9","imdbVotes":"411,731","imdbID":"tt9419884","Type":"movie","DVD":"22 Jun 2022","BoxOffice":"$411,331,607","Production":"N/A","Website":"N/A","Response":"True"},
+  {"Title":"Harry Potter and the Chamber of Secrets","Year":"2002","Rated":"PG","Released":"15 Nov 2002","Runtime":"161 min","Genre":"Adventure, Family, Fantasy","Director":"Chris Columbus","Writer":"J.K. Rowling, Steve Kloves","Actors":"Daniel Radcliffe, Rupert Grint, Emma Watson","Plot":"An ancient prophecy seems to be coming true when a mysterious presence begins stalking the corridors of a school of magic and leaving its victims paralyzed.","Language":"English, Latin","Country":"United Kingdom, United States","Awards":"Won 1 BAFTA Award13 wins & 46 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMjE0YjUzNDUtMjc5OS00MTU3LTgxMmUtODhkOThkMzdjNWI4XkEyXkFqcGdeQXVyMTA3MzQ4MTc0._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.4/10"},{"Source":"Rotten Tomatoes","Value":"82%"},{"Source":"Metacritic","Value":"63/100"}],"Metascore":"63","imdbRating":"7.4","imdbVotes":"633,786","imdbID":"tt0295297","Type":"movie","DVD":"11 Apr 2003","BoxOffice":"$262,641,637","Production":"N/A","Website":"N/A","Response":"True"},
+  {"Title":"The Invitation","Year":"2022","Rated":"PG-13","Released":"26 Aug 2022","Runtime":"105 min","Genre":"Horror, Thriller","Director":"Jessica M. Thompson","Writer":"Blair Butler","Actors":"Nathalie Emmanuel, Thomas Doherty, Sean Pertwee","Plot":"A young woman is courted and swept off her feet, only to realize a gothic conspiracy is afoot.","Language":"English","Country":"United States, Hungary","Awards":"N/A","Poster":"https://m.media-amazon.com/images/M/MV5BYTk3YWEwOTYtYTFiOS00NjJiLWJiOTAtMTRkZDY1Y2M1MDIyXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"5.2/10"},{"Source":"Rotten Tomatoes","Value":"25%"},{"Source":"Metacritic","Value":"45/100"}],"Metascore":"45","imdbRating":"5.2","imdbVotes":"14,475","imdbID":"tt12873562","Type":"movie","DVD":"N/A","BoxOffice":"$25,100,080","Production":"N/A","Website":"N/A","Response":"True"},
+  {"Title":"The Batman","Year":"2022","Rated":"PG-13","Released":"04 Mar 2022","Runtime":"176 min","Genre":"Action, Crime, Drama","Director":"Matt Reeves","Writer":"Matt Reeves, Peter Craig, Bob Kane","Actors":"Robert Pattinson, Zoë Kravitz, Jeffrey Wright","Plot":"When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption and question his family's involvement.","Language":"English, Spanish, Latin, Italian","Country":"United States","Awards":"7 wins & 60 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.8/10"},{"Source":"Rotten Tomatoes","Value":"85%"},{"Source":"Metacritic","Value":"72/100"}],"Metascore":"72","imdbRating":"7.8","imdbVotes":"636,081","imdbID":"tt1877830","Type":"movie","DVD":"19 Apr 2022","BoxOffice":"$369,345,583","Production":"N/A","Website":"N/A","Response":"True"}
+
 ]

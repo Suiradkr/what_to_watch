@@ -10,29 +10,16 @@ from .models import *
 ##WATCHMODE API INFO
 api_key = settings.API_KEY
 api_key_str = '?apiKey='+api_key
-url = "https://api.watchmode.com/v1/"
+url = "https://api.watchmode.com/v1/title/"
 
 ##GLOBAL VARIABLES##
 app = open('static/index.html').read()
-# person = Person.objects.get(watchmode_id=73836).imdb_id
 
-#     # print(response.json())
+
 ##LOGIN PAGE & LOGIN USER METHOD##
 @api_view(["GET", "POST"])
 def login_user_view(request):
     if request.method == 'GET':
-        
-        # for i in range(1,11):
-        #     print(i)
-        #     movie = PopularMovies.objects.get(id=i)
-        #     #response = requests.get(f"https://api.watchmode.com/v1/title/{movie.movie_id}/details/{api_key_str}&&append_to_response=sources")
-        #     res = json.dumps(requests.get(f"http://www.omdbapi.com/?i={movie.imdb_id}&apikey=afa96401").json())
-        #     print(res)
-            # dates = res.json()
-            # if dates['Response']:
-            #     print(dates)
-            
-            ##response = requests.get(url+'list-titles/'+api_key_str+'&sort_by=popularity_desc&types=movie')
         return HttpResponse(app)
     elif request.method == 'POST':
         data = request.data
@@ -44,7 +31,10 @@ def login_user_view(request):
                 try:
                     login(request._request, user)
                     print('user logged in!')
-                    return JsonResponse({'success': True})
+                    user_info = AppUser.objects.get(email=email)
+                    print(user_info)
+                    
+                    return JsonResponse({'success': True, 'user':user_info.first_name})
                 except Exception as e:
                     return JsonResponse({'success': False, 'reason': 'login failed'})
             else:
@@ -78,7 +68,7 @@ def user_homepage(request):
             print('made it!')
             print(request.user)
             return HttpResponse(app)
-        return HttpResponseRedirect(redirect_to='')
+        return HttpResponseRedirect(redirect_to='/')
     
 
 @api_view(['GET'])
@@ -88,10 +78,22 @@ def movie_data(request):
             with open('./fixtures/omdata.json') as f:
                 movies= json.load(f)
                 f.close()
+           
             return JsonResponse({'success': True, 'data':movies})
         else:
             return JsonResponse({'success':False, 'user':'not logged in'})
 
+@api_view(['GET'])
+def tv_data(request):
+    if request.method == 'GET':
+        if request.user.is_authenticated:
+            with open('./fixtures/tvshows.json') as t:
+                shows= json.load(t)
+                t.close()
+            return JsonResponse({'success': True, 'data':shows})
+        else:
+            return JsonResponse({'success':False, 'user':'not logged in'})
+            
 @api_view(['GET'])
 def logout_user(request):
     if request.method == 'GET':
@@ -99,11 +101,111 @@ def logout_user(request):
         print('logged out!!')
         return JsonResponse({'success':True})
 
-
+@api_view(['GET'])
 def whoami(request):
     if request.user.is_authenticated:
         return JsonResponse({
-            'email': request.user.email,
+            'user': request.user.email,
         })
     else:
-        return JsonResponse({'email': None})
+        return JsonResponse({'user': None})
+
+@api_view(['GET'])
+def user_accountpage(request):
+    if request.method == 'GET':
+        print("user account page!!!")
+        return HttpResponse(app)
+
+@api_view(['GET'])
+def all_movies(request):
+    if request.method == 'GET':
+        return HttpResponse(app)
+
+@api_view(['GET'])
+def all_tvshows(request):
+    if request.method == 'GET':
+        return HttpResponse(app)
+
+@api_view(['GET', 'POST', 'DELETE'])
+def favorite_movies(request):
+    if request.method == 'GET':
+        user = AppUser.objects.get(email=request.user.email)
+        fav_list = user.favoritefilms_set.all()
+        print(fav_list)
+        favorite = []
+        fav_film_info = []
+        for films in fav_list:
+            favorite.append(films.film_id)
+        with open('./fixtures/omdata.json') as f:
+            movies= json.load(f)
+            f.close()
+            for movie in movies:
+                if movie['imdbID'] in favorite:
+                    fav_film_info.append(movie)
+        with open('./fixtures/tvshows.json') as t:
+            shows = json.load(t)
+            t.close()
+            for show in shows:
+                if show['imdbID'] in favorite:
+                    fav_film_info.append(show)
+        return JsonResponse({'list':fav_film_info})
+    if request.method == 'POST':
+        user = AppUser.objects.get(email=request.user.email)
+        try: 
+            if FavoriteFilms.objects.get(user_id=user, film_id=request.data['film_id']):
+                return JsonResponse({'success':False, 'error':'This film is already in your favorites'})
+        except:
+            FavoriteFilms.objects.create(user_id=user, film_id=request.data['film_id'])
+            return JsonResponse({'success':True})
+    if request.method == 'DELETE':
+        print(request.data['film_id'])
+        user = AppUser.objects.get(email=request.user.email)
+        remove_from_list = FavoriteFilms.objects.get(user_id=user, film_id=request.data['film_id'])
+        remove_from_list.delete()
+        return JsonResponse({'success':True})
+
+@api_view(['GET'])
+def favorite_movies_view(request):
+    if request.method == 'GET':
+        return HttpResponse(app)
+
+@api_view(['POST'])
+def favorites_list(request):
+    in_list = False
+    if request.method == 'POST':
+        user = AppUser.objects.get(email=request.user.email)
+        fav_list = user.favoritefilms_set.all()
+        print(request.data['id'])
+        favorite = []
+        for films in fav_list:
+            favorite.append(films.film_id)
+        if request.data['id'] in favorite:
+            in_list = True
+    return JsonResponse({'in_list':in_list})
+
+@api_view(['POST'])
+def get_film_details(request):
+    if request.method == 'POST':
+        response = requests.get(f"{url}{request.data['id']}/details/{api_key_str}&append_to_response=sources")
+        print(response.json())
+        return JsonResponse({'details':response.json()})
+        # for i in range(1,11):
+        #     print(i)
+        #     movie = PopularMovies.objects.get(id=i)
+        #     #response = requests.get(f"https://api.watchmode.com/v1/title/{movie.movie_id}/details/{api_key_str}&&append_to_response=sources")
+        #     res = json.dumps(requests.get(f"http://www.omdbapi.com/?i={movie.imdb_id}&apikey=afa96401").json())
+        #     print(res)
+        #     dates = res.json()
+        #     if dates['Response']:
+        #         print(dates)
+            
+            #response = requests.get(url+'list-titles/'+api_key_str+'&sort_by=popularity_desc&types=movie')
+        #return JsonResponse(response.json())
+@api_view(['GET','POST'])
+def search_film(request):
+    if request.method == 'GET':
+        return HttpResponse(app)
+    if request.method == 'POST':
+        response = requests.get(f"https://api.watchmode.com/v1/autocomplete-search/{api_key_str}&search_value={request.data['search']}&search_type=2")
+        
+        return JsonResponse({'data':(response.json())['results']})

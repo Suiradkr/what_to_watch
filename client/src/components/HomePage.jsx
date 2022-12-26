@@ -1,42 +1,54 @@
-import {useState, useEffect} from 'react'
-import { useNavigate } from 'react-router-dom'
-import '../App.css'
-import MovieCard from './MovieCard'
-import NavBar from './NavBar'
+import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import "../App.css";
+import FilmCard from "./FilmCard";
 
-function HomePage(props){
-    const navigate = useNavigate()
+
+import NavBar from "./NavBar";
+
+function HomePage(props) {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    props.getData();
+    props.getTvShows();
     
-   console.log(props.isLoggedIn)
-    useEffect(() => { 
-        props.getData()
-        if(!props.isLoggedIn){
-            navigate('/')
-        }else{
-        navigate('/userhomepage/')
-        }
-       
-    },[props.isLoggedIn])
+    if (!props.isLoggedIn) {
+      navigate("/");
+    // } else {
+    //   props.user_info();
+      // navigate("/userhomepage/");
+    }
+  }, [props.isLoggedIn, props.user]);
 
-    return (
-        <>
-            <NavBar />
-            <h1>You've made it to your homepage!!!</h1>
-            
-            <header>
-            {props.movies && props.movies.map((movie) =>{
-
-                return (
-                    <MovieCard movie={movie}/> 
-                    
-                )
-            })}
-            </header>
-           
-            <button class="btn btn-primary" onClick={() => props.logout_user()}>Logout</button>
-
-        </>
-    )
-
+  return (
+    <>
+      <NavBar />
+    
+      <header>
+        {props.movies &&
+          props.movies.map((movie) => {
+            return (
+              <>
+                <FilmCard movie={movie} />
+                
+              </>
+            );
+          })}
+        {props.tvShows &&
+          props.tvShows.map((shows) => {
+            return (
+              <>
+                <FilmCard movie={shows} />
+              </>
+            );
+          })}
+      </header>
+      
+      <button class="btn btn-primary" onClick={() => props.logout_user()}>
+        Logout
+      </button>
+    </>
+  );
 }
-export default HomePage
+export default HomePage;

@@ -23,10 +23,11 @@ const LoginPage = (props) => {
     if (props.isLoggedIn) {
       
       
-      navigate("userhomepage/");
+      navigate("/homepage/");
     }
   });
   return (
+    <div className="list-group">
     <div class='form-container'>
     
       <h1>What2Watch</h1>
@@ -43,6 +44,7 @@ const LoginPage = (props) => {
         <p>or</p>
         <a href="signup/">Sign Up</a>
       </form>
+    </div>
     </div>
     
   );
