@@ -54,7 +54,7 @@ await axios
     <>
       <NavBar />
     
-     <Button onClick={() => generate_film()}><h1>What2Watch</h1></Button>
+     <Button className="custom-btn" onClick={() => generate_film()}><h1>What2Watch</h1></Button>
     {randomFilm ?  <header><div class="card-box" onClick={() => setShowModal(true)}>
         <img src={randomFilm.Poster} alt={randomFilm.title} id={randomFilm.id} />
       </div>  {showModal ? <MovieModal buttons={true} rating={randomFilm.Rated} genre={randomFilm.Genre} getFavorites={props.getFavorites} movie={randomFilm} movieID={randomFilm.imdbID} showModal={showModal} setShowModal={setShowModal} title={randomFilm.Title} plot={randomFilm.Plot}/> : <></>}</header> :''}
