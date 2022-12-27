@@ -16,7 +16,7 @@ function AllMoviesPage(props){
     return(
         <>
             <NavBar />
-          
+          <h2>Movies</h2>
            {/* <h1>User: {props.user}</h1> */}
            <header>
         {props.movies &&

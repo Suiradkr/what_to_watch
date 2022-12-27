@@ -1,22 +1,52 @@
-import NavBar from "./NavBar"
-import { useEffect } from "react"
+import NavBar from "./NavBar";
+import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import axios from "axios";
+import '../index.css'
 
 
 function AccountPage(props){
-
+    const navigate = useNavigate();
+    const [user,setUser] = useState();
+    async function logout_user(){
+        await axios
+          .get("/api/logout_user/")
+          .then((response) => {
+            props.setIsLoggedIn(false)
+            navigate('/')
+        })
+      }
+      async function getUserInfo(){
+        await axios
+        .get("/api/whoami/")
+        .then((response) => {
+          
+          setUser({'firstName':response.data.fname,
+                    'lastName':response.data.lname,
+                    'email':response.data.email})
+                    
+        })
+      }
+   
     useEffect(() => {
-        props.user_info()
+    
+        getUserInfo()
+
     },[])
 
     return(
         <>
             <NavBar />
-           {/* <h1>User: {props.user}</h1> */}
-           
+            <h2>Account Info</h2>
+
+           <div className="account-info"> <h5>First Name:</h5> {user && user['firstName']}<br/>
+           <h5>Last Name:</h5> {user && user['lastName']}<br/>
+           <h5>Email:</h5> {user && user['email']}<br/>
+           </div>
     
-           {/* <h1>User: {props.user.firstname}</h1>
-           <h1>User: {props.user.lastname}</h1>
-           <h1>User: {props.user.favorites}</h1> */}
+           <button class="btn btn-primary" onClick={() => logout_user()}>
+        Logout
+      </button>
         </>
     )
 }

@@ -6,11 +6,15 @@ from django.contrib.auth import authenticate, login, logout
 import requests
 from rest_framework.decorators import api_view
 from .models import *
+import random
+
 
 ##WATCHMODE API INFO
 api_key = settings.API_KEY
 api_key_str = '?apiKey='+api_key
 url = "https://api.watchmode.com/v1/title/"
+om_key = settings.OMAPI_KEY
+om_url = "http://www.omdbapi.com/?i="
 
 ##GLOBAL VARIABLES##
 app = open('static/index.html').read()
@@ -104,8 +108,11 @@ def logout_user(request):
 @api_view(['GET'])
 def whoami(request):
     if request.user.is_authenticated:
+        print(request.user.last_name)
         return JsonResponse({
-            'user': request.user.email,
+            'email': request.user.email,
+            'fname': request.user.first_name,
+            'lname': request.user.last_name,
         })
     else:
         return JsonResponse({'user': None})
@@ -187,25 +194,52 @@ def favorites_list(request):
 def get_film_details(request):
     if request.method == 'POST':
         response = requests.get(f"{url}{request.data['id']}/details/{api_key_str}&append_to_response=sources")
-        print(response.json())
         return JsonResponse({'details':response.json()})
-        # for i in range(1,11):
-        #     print(i)
-        #     movie = PopularMovies.objects.get(id=i)
-        #     #response = requests.get(f"https://api.watchmode.com/v1/title/{movie.movie_id}/details/{api_key_str}&&append_to_response=sources")
-        #     res = json.dumps(requests.get(f"http://www.omdbapi.com/?i={movie.imdb_id}&apikey=afa96401").json())
-        #     print(res)
-        #     dates = res.json()
-        #     if dates['Response']:
-        #         print(dates)
-            
-            #response = requests.get(url+'list-titles/'+api_key_str+'&sort_by=popularity_desc&types=movie')
-        #return JsonResponse(response.json())
+      
 @api_view(['GET','POST'])
 def search_film(request):
     if request.method == 'GET':
         return HttpResponse(app)
     if request.method == 'POST':
         response = requests.get(f"https://api.watchmode.com/v1/autocomplete-search/{api_key_str}&search_value={request.data['search']}&search_type=2")
-        
+       
         return JsonResponse({'data':(response.json())['results']})
+
+@api_view(['GET','POST'])
+def generate_film(request): 
+    if request.method == 'GET':
+        
+        with open('./fixtures/genres.json') as g:
+            genres= json.load(g)
+            g.close()
+        
+        return JsonResponse({'genres':genres})
+    if request.method == 'POST':
+        if len(request.data['genres']) == 0:
+            response = requests.get(f"https://api.watchmode.com/v1/list-titles/{api_key_str}&types=movies,tv_series")
+            random_num = random.randint(0, len((response.json())['titles']))
+            print((response.json())['titles'][random_num])
+            film_id = (response.json())['titles'][random_num]['imdb_id']
+            new_response = requests.get(f"{om_url}{film_id}{om_key}")
+            return JsonResponse({'film':new_response.json()})
+        else:
+            genres = ''
+            for genre in request.data['genres']:
+                genres += f"{genre['id']},"
+            print(genres)
+            response = requests.get(f"https://api.watchmode.com/v1/list-titles/{api_key_str}&types=movies,tv_series&genres={genres}")
+            print((response.json()))
+            random_num = random.randint(0, len((response.json())['titles']))
+            print((response.json())['titles'][random_num])
+            film_id = (response.json())['titles'][random_num]['imdb_id']
+            new_response = requests.get(f"{om_url}{film_id}{om_key}")
+            
+        return JsonResponse({'film':new_response.json()})
+
+@api_view(['POST'])
+def search_details(request):
+    if request.method == 'POST':
+        response = requests.get(f"{url}{request.data['id']}/details/{api_key_str}&append_to_response=sources")
+        print(request.data)
+        print(response.json())
+        return JsonResponse({'data':response.json()})

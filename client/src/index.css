@@ -5,6 +5,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   margin: auto;
+  justify-content: center;
 }
 .card-box{
   position: relative;;
@@ -24,7 +25,7 @@ header {
   transform: translate(1px, -5%);
   opacity: 1;
   
-  box-shadow: 0px 10px 26px 0px rgba(0, 0, 0, 0.678);
+  box-shadow: 0px 15px 26px 0px rgba(0, 0, 0, 0.799);
   transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 .card-box img{
@@ -70,4 +71,11 @@ font-size: 13px;
   color:#d9e3f1;
   padding: 0px 0px 5px 10px;
   font-size: 13px;
+  }
+
+  .account-info{
+    font-size: x-large ;
+    margin: 5%;
+    border-width: 5px;
+    border-color: black;
   }

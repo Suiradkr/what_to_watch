@@ -16,14 +16,16 @@ export default function MovieModal(props) {
   const [modalButton, setModalButton] = useState();
   const [filmInfo, setFilmInfo] = useState();
   const [showInfo, setShowInfo] = useState(false);
+  const [showMD,setShowMD] = useState(true)
+
   
   async function addFavorite(film_id){
-    console.log(film_id)
+    
     await axios
     .post("/api/addFavorite/", {'film_id':film_id})
   }
   async function deleteFavorite(film_id){
-    console.log(film_id)
+    
     await axios
     .delete("/api/deleteFavorite/", {'data':{'film_id':film_id}})
     .then((response) => {
@@ -37,7 +39,7 @@ export default function MovieModal(props) {
   }
   
   async function inFavorites(id){
-    console.log(id)
+   
     await axios 
     .post("/api/inFavorites/", {'id':id})
     .then((response) =>{
@@ -54,7 +56,9 @@ export default function MovieModal(props) {
     })
   }
   useEffect(() => {
-    console.log(filmInfo)
+    if(props.buttons != undefined){
+    setShowMD(false)
+  }
     inFavorites(props.movieID)
     if (props.getFavorites){
       props.getFavorites()
@@ -74,18 +78,19 @@ export default function MovieModal(props) {
         <Modal.Body scrollable="true">{props.rating} | {props.genre}<br/>
         {props.plot}<br/>
         {showInfo ? <><a href={filmInfo && filmInfo.trailer} target='_blank'> Watch Trailer</a><br/></> : ''}
-        {showInfo ? (filmInfo && filmInfo.sources.map((source) => {
+        {showInfo ? <> Where to Watch<br/>{showInfo ? (filmInfo && filmInfo.sources.map((source) => {
           return(<><a href={source.web_url} target='_blank'>{source.name}</a><br/></>)
           
-        })): <>No Sources</>}
+        })): <></>}</>: ''}
+        
         </Modal.Body>
         <Modal.Footer>
           { showInfo ? <Button variant='info' onClick={() => {setShowInfo(!showInfo)}}>Less Details</Button>:<Button variant='info' onClick={() => {setShowInfo(!showInfo),getFilmDetails(props.movieID)}}>More Details</Button>}
-          { modalButton ? <Button variant="danger" onClick={() => (deleteFavorite(props.movieID),handleClose())}>
+          {showMD ? modalButton ? <Button variant="danger" onClick={() => (deleteFavorite(props.movieID),handleClose())}>
             Remove from favorites
           </Button> :<Button variant="primary" onClick={() => (addFavorite(props.movieID),handleClose())}>
             Add to favorites
-          </Button> }
+          </Button> : ''}
         </Modal.Footer>
       </Modal>
     </>

@@ -15,6 +15,7 @@ function AllTvShowsPage(props){
     return(
         <>
             <NavBar />
+            <h2>Shows</h2>
             <header>
 {props.tvShows &&
           props.tvShows.map((shows) => {

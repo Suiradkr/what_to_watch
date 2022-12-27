@@ -10,7 +10,7 @@ urlpatterns = [
     path('api/moviedata/', views.movie_data),
     path('api/tvdata/', views.tv_data),
     path('homepage/', views.user_homepage),
-    path('homepage/api/logout_user/', views.logout_user),
+    path('api/logout_user/', views.logout_user),
     path('api/whoami/', views.whoami),
     path('homepage/account/', views.user_accountpage),
     path('homepage/movies/', views.all_movies),
@@ -23,5 +23,8 @@ urlpatterns = [
     path('api/getFilmDetails/', views.get_film_details),
     path('api/search/', views.search_film),
     path('homepage/search/', views.search_film),
+    path('api/genres/', views.generate_film),
+    path('api/generate/', views.generate_film),
+    path('api/searchDetails/', views.search_details),
     #re_path(r'.*', views.user_homepage)
 ]

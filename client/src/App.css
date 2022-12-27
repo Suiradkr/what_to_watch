@@ -138,9 +138,9 @@ h5,
 h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-weight: 500;
+  font-weight: 5000;
   line-height: 1.2;
-  color: #485785;
+  color: #131722;
 }
 .h1,
 h1 {
@@ -3721,7 +3721,7 @@ fieldset:disabled .btn {
   justify-content: space-between;
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
   box-shadow: 0px 2px 9px 2px rgba(29, 55, 89, 0.267);
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -11272,3 +11272,32 @@ fieldset:disabled .btn {
   padding: 1rem;
   margin: none;
 }
+
+.select-drop{
+  width: 50%;
+  height: auto;
+  
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+fieldset{
+  border: 10px solid transparent; 
+  border-top-color: black; 
+  box-sizing: border-box; 
+  grid-area: 1 / 1; 
+  padding: 20px; 
+  width: inherit; 
+}
+fieldset:nth-of-type(1){ 
+  background: content-box center/contain no-repeat url("photo-1588852065463-5de1411ea697?w=400"); 
+}
+fieldset:nth-of-type(2){ transform: rotate(90deg); }
+fieldset:nth-of-type(3){ transform: rotate(180deg); }
+fieldset:nth-of-type(4){ transform: rotate(-90deg); }
+legend{
+  font: 15pt/0 'Averia Serif Libre'; 
+  margin: auto; 
+  padding: 0 4px; 
+} 
+fieldset:nth-of-type(3)>legend{ transform: rotate(180deg); } 

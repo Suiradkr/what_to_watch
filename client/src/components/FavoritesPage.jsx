@@ -22,7 +22,7 @@ function FavoritesPage(props){
         <>
             <NavBar />
           
-           
+           <h2>Your Favorites</h2>
            <header>
            {favMovies &&
           favMovies.map((movie) => {

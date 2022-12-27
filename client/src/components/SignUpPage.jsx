@@ -24,6 +24,14 @@ function SignUpPage(props){
       
     return (
         <div class='form-container'>
+          {(props.alertm == 'error') ? <><div class="alert alert-dismissible alert-danger">
+  <button type="button" class="btn-close" data-bs-dismiss="alert" onClose={() => props.setAlertm('')}></button>
+  <strong>Oops!</strong> <a href="#" class="alert-link">Sign up failed, try submitting a different.</a>
+</div></>:'' }
+{(props.alertm == 'success') ? <><div class="alert alert-dismissible alert-success">
+  <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+  <strong>Sign up successful!</strong>
+</div></>:'' }
             <h1>What2Watch</h1>
                 <form onSubmit={handleSubmit}>
                   

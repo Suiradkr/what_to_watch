@@ -25,6 +25,7 @@ export default function App() {
   const [movies, setMovies] = useState();
   const [tvShows, setTvShows] = useState();
   const [favMovies, setFavMovies] = useState();
+  const [alertm,setAlertm] = useState(false);
   function getCookie(name) {
   
     let cookieValue = null;
@@ -52,13 +53,17 @@ export default function App() {
         password: password,
       })
       .then((response) => {
-        console.log(response.data);
+        if (!response.data['success']){
+          setAlertm('error')
+        }else if(response.data['success']){
+          setAlertm('success')
+        };
       })
       
   }
 
   async function login_user(email, password) {
-    await axios.post("api/login_user/", { email: email, password: password })
+    await axios.post("/api/login_user/", { email: email, password: password })
     .then((response) => {
       console.log(response.data)
       if (response.data['success']){
@@ -74,7 +79,7 @@ export default function App() {
 
    async function logout_user(){
     await axios
-      .get("api/logout_user/")
+      .get("/api/logout_user/")
       .then((response) => {
         setIsLoggedIn(false)
         setMovies([])
@@ -113,6 +118,7 @@ export default function App() {
     await axios
     .get("/api/whoami/")
     .then((response) => {
+      setIsLoggedIn(true)
       setUser(response.data.user)
     })
   }
@@ -130,7 +136,7 @@ export default function App() {
  useEffect(() =>{
 
 
- },[isLoggedIn,user,favMovies])
+ },[isLoggedIn,user,favMovies,alertm])
   
   return (
     <div className="App">
@@ -144,12 +150,12 @@ export default function App() {
           />
           <Route
             path="/signup/"
-            element={<SignUpPage create_user={signup_user} isLoggedIn={isLoggedIn}/>}
+            element={<SignUpPage create_user={signup_user} isLoggedIn={isLoggedIn} alertm={alertm} setAlertm={setAlertm}/>}
           /> 
           <Route path="/homepage/" element={<HomePage getFavorites={getFavorites} user={user} user_info={getUserInfo} logout_user={logout_user} getData={getData} getTvShows={getTvData} isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} movies={movies} tvShows={tvShows}/>} />
           <Route
             path="/homepage/account/"
-            element={<AccountPage user={user} user_info={getUserInfo} isLoggedIn={isLoggedIn} />}
+            element={<AccountPage user={user} setIsLoggedIn={setIsLoggedIn} user_info={getUserInfo} logout_user={logout_user} isLoggedIn={isLoggedIn} getData={getData} getTvShows={getTvData} />}
           />
            <Route
             path="/homepage/favorites/"
