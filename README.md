@@ -1,4 +1,4 @@
-# What to Watch APP
+# What2Watch APP #
 ## Api's
   - WatchMode API https://api.watchmode.com to get acquire all movie and tv show data utilize their many built-in features
     - contraints: 1000 per month request limit
